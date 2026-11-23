@@ -1,0 +1,139 @@
+{
+  "fetched": "2026-11-23T20:33:18+00:00",
+  "western": [
+    {
+      "name": "BBC News",
+      "site": "https://www.bbc.com/news",
+      "headlines": [
+        {
+          "title": "My approach to EU is pragmatic, says Burnham",
+          "url": "https://www.bbc.co.uk/news/articles/c6vg2v9xkr40o"
+        },
+        {
+          "title": "Russian warship hit by Ukrainian drones in Libya, Zelensky says",
+          "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo"
+        },
+        {
+          "title": "UK to host 2035 Women's World Cup, Fifa confirms",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cx30g83716lzo"
+        }
+      ]
+    },
+    {
+      "name": "CNN",
+      "site": "https://www.cnn.com",
+      "headlines": [
+        {
+          "title": "New York judge urged Kalshi to compromise on limiting bets by anyone under 21",
+          "url": "https://www.cnn.com/2026/11/23/politics/judge-kalshi-limiting-bets-under-21"
+        },
+        {
+          "title": "House Ethics panel finds Democratic Rep. Jimmy Gomez had unwelcome sexual contact with former staffer",
+          "url": "https://www.cnn.com/2026/11/23/politics/house-ethics-committee-reports-jimmy-gomez"
+        },
+        {
+          "title": "Nvidia’s $1.5 trillion boardroom blunder helped bring Jensen Huang back",
+          "url": "https://www.cnn.com/2026/11/23/tech/nvidia-reinstates-jensen-huang-corporate-governance"
+        }
+      ]
+    },
+    {
+      "name": "DW",
+      "site": "https://www.dw.com/en",
+      "headlines": [
+        {
+          "title": "Denmark: Top court backs hardline immigration \"ghetto law\"",
+          "url": "https://www.dw.com/en/denmark-top-court-backs-hardline-immigration-ghetto-law/a-80026478"
+        },
+        {
+          "title": "Tajikistan follows US call, withdraws from ICC",
+          "url": "https://www.dw.com/en/tajikistan-follows-us-call-withdraws-from-icc/a-80023903"
+        },
+        {
+          "title": "US and UK to host Women's World Cups in 2031 and 2035",
+          "url": "https://www.dw.com/en/us-and-uk-to-host-women-s-world-cups-in-2031-and-2035/a-80023786"
+        }
+      ]
+    }
+  ],
+  "videos": [
+    {
+      "name": "Judging Freedom",
+      "slug": "judging-freedom",
+      "video": {
+        "id": "CUHXFjl386g",
+        "title": "The Trilateral Summit: Are the US, Russia, and China Dividing the World?",
+        "url": "https://www.youtube.com/watch?v=CUHXFjl386g",
+        "date": "2026-11-23T18:00:13+00:00",
+        "description": "Books from Judge Napolitano:\n\nFreedom’s Anchor: An Introduction to Natural Law Jurisprudence in American Constitutional History\nhttps://amzn.to/4kDJa6L\n\nLies the Government Told You: Myth, Power, and Deception in American History\nhttps://amzn.to/4kLdexv\n\nIt Is Dangerous to Be Right When the Government Is Wrong: The Case for Personal Freedom \nhttps://amzn.to/43DcBPG\n\nThe Constitution in Exile: How the Federal Government Has Seized Power by Rewriting the Supreme Law of the Land\nhttps://amzn.to/3ZGxGaz\n\nA Nation of Sheep\nhttps://amzn.to/4jt2jqV\n\nThe Freedom Answer Book: How the Government Is Taking Away Your Constitutional Freedoms (Answer Book Series)\nhttps://amzn.to/4dCGWlT\n\nNapolitano 3 in 1: Constitutional Chaos, The Constitution in Exile, and A Nation of Sheep\nhttps://amzn.to/43HDnq3\n\nDred Scott's Revenge: A Legal History of Race and Freedom in America\nhttps://amzn.to/3SVP5Iq\n\nSuicide Pact: The Radical Expansion of Presidential Powers and the Lethal Threat to American Liberty\nhttps://amzn.to/4jiGY3r\n\n\nJoin this channel to get access to perks:\nhttps://www.youtube.com/channel/UCDkEYb-TXJVWLvOokshtlsw/join"
+      }
+    },
+    {
+      "name": "Double Down News",
+      "slug": "double-down-news",
+      "video": {
+        "id": "yMNXanoz2I0",
+        "title": "“IT’S A SETUP”: Lowkey DROPS BOMBSHELL on Spain & Trump’s Extradition Deal",
+        "url": "https://www.youtube.com/watch?v=yMNXanoz2I0",
+        "date": "2026-11-23T16:05:29+00:00",
+        "description": "Reporting for Double Down News, journalist and musician Lowkey examines the international legal battle surrounding American philanthropist and human rights advocate Fergie Chambers, who was granted conditional bail by Spain’s National Court in Madrid following U.S. extradition proceedings and an urgent asylum application.\n\nDrawing on public court records and international legal commentary, Lowkey reviews:\n• Chambers’ humanitarian relief funding and philanthropic initiatives\n• Constitutional and First Amendment legal arguments surrounding a 2023 demonstration in New Hampshire\n• Evidentiary and translation discrepancies acknowledged by U.S. officials, alongside property-transfer breaches under the 1970 U.S.–Spain Extradition Treaty\n• Warnings from the UN Special Rapporteur on Human Rights Defenders ahead of a final ruling by Prime Minister Pedro Sánchez’s government\n\nSupport independent journalism that holds power to account:\n🌍 Join Patreon: https://patreon.com/doubledownnews\n🤝 Become a Monthly Supporter: https://doubledown.news/support\n⚡ Make a One-Off Donation: https://doubledown.news/donate\n🅿️ Support via PayPal: https://doubledown.news/paypal\n\nTimestamps:\n00:00 Introduction: Fergie Chambers’ Case in Spain\n01:21 Humanitarian Relief & Philanthropic Projects\n03:03 The 2023 New Hampshire Case & Federal Charges\n04:59 Spanish Extradition Law, Translation Errors & Bail Ruling\n06:42 U.S. Legal Precedents & Constitutional Arguments\n08:23 UN Human Rights Warnings & Chambers Speaks\n10:01 Public Appeal & Double Down News\n\n#DoubleDownNews #Lowkey #FergieChambers #HumanRights #InternationalLaw #Journalism"
+      }
+    },
+    {
+      "name": "Glenn Diesen",
+      "slug": "glenn-diesen",
+      "video": {
+        "id": "hFBLXQclaa4",
+        "title": "Chas Freeman: New Great Power Order & Europe's New Dark Age",
+        "url": "https://www.youtube.com/watch?v=hFBLXQclaa4",
+        "date": "2026-11-23T20:00:29+00:00",
+        "description": "Ambassador Chas Freeman was a former Assistant Secretary of Defense, earning the highest public service awards of the Department of Defense for his roles in designing a NATO-centred post-Cold War European security system and in reestablishing defence and military relations with China. He served as U.S. Ambassador to Saudi Arabia during operations Desert Shield and Desert Storm. Read Chas Freeman's Substack: https://substack.com/@chasfreeman662157\n\nBooks by Prof. Glenn Diesen: \nhttps://www.amazon.com/stores/author/B09FPQ4MDL\n\nFollow Prof. Glenn Diesen: \nSubstack: https://glenndiesen.substack.com/ \nX/Twitter: https://x.com/Glenn_Diesen\nPatreon: https://www.patreon.com/glenndiesen \n\nSupport the research by Prof. Glenn Diesen: \nPayPal: https://www.paypal.com/paypalme/glenndiesen\nBuy me a Coffee: buymeacoffee.com/gdieseng\nGo Fund Me: https://gofund.me/09ea012f\nBuy Diesen merchandise: https://diesen-shop.fourthwall.com/en-nok\n\n00:00 Introduction and Context of Global Power Dynamics\n00:59 The Significance of the Xi-Putin-Trump Meeting\n02:30 Implications of Global Power Shifts\n04:09 Europe's Absence in Global Diplomacy\n06:32 The Role of the United Nations in Current Conflicts\n08:01 Potential for a New Global Order\n10:00 Challenges Facing European Unity\n12:08 The Need for Reform in European Institutions\n14:19 Historical Context of European Relations\n16:42 The Importance of Security Architecture in Europe\n17:54 Human Nature and Political Realism\n20:36 The Decline of Enlightenment Values\n28:25 Conclusion: The Future of Global Order\n28:52 Freedom of Speech and Political Ostracism\n30:42 The Enlightenment and Modern Political Challenges\n37:07 The Illusions of European Power\n39:17 Disillusionment and the Need for Strategy\n45:01 The Dystopian Shift in Society\n46:13 Navigating Global Changes and Opportunities"
+      }
+    },
+    {
+      "name": "Chris Hedges",
+      "slug": "chris-hedges",
+      "video": {
+        "id": "itrifY2Tx3o",
+        "title": "How the Definition of 'Terrorism' Has Been Weaponized by the Deep State for Decades(w/ Dan Boguslaw)",
+        "url": "https://www.youtube.com/watch?v=itrifY2Tx3o",
+        "date": "2026-11-21T01:16:24+00:00",
+        "description": "Watch the full episode: https://www.youtube.com/watch?v=Ww1hPklXb7A&t=1s\n\nSupport my independent journalism at Substack: https://chrishedges.substack.com/\n\nFollow The Chris Hedges Report on social media: https://linktr.ee/chrishedges"
+      }
+    },
+    {
+      "name": "The Grayzone",
+      "slug": "the-grayzone",
+      "video": {
+        "id": "slmye_Y3Nyc",
+        "title": "'I'll never forget these scenes'- Tehran Fire Dept spox on rescuing civilians under US-Israeli bombs",
+        "url": "https://www.youtube.com/watch?v=slmye_Y3Nyc",
+        "date": "2026-11-23T17:33:47+00:00",
+        "description": "Jalal Maleki, the spokesman for the Tehran Fire Department, joins The Grayzone's Max Blumenthal to describe the harrowing scenes he witnessed during the war imposed on Iran this year by the US-Israeli coalition. Maleki recalls the shock of retrieving children from under the rubble of large residential buildings destroyed by the airstrikes, and details the US-Israeli pattern of targeting civilian neighborhoods with no regard for human life.\n\nAs one of the first one the scene after the US-Israeli bombing of the offices of Ayatollah Ali Khamenei, Maleki provides exclusive detail on what he saw there, and how he discovered members of the leader's family. \n\nHe also explains how US sanctions and the ongoing naval blockade have hampered his departments ability to save lives as it prepares for a possible third round of war in the near future.\n\n||| The Grayzone |||\n\nFind more reporting at https://thegrayzone.com\n\nSupport our original journalism at Patreon: https://patreon.com/grayzone\n\nFacebook: https://facebook.com/thegrayzone\nTwitter: https://twitter.com/thegrayzonenews\nInstagram: https://instagram.com/thegrayzonenews\nMinds: https://minds.com/thegrayzone\nMastodon: https://mastodon.social/@thegrayzone\n\n#TheGrayzone"
+      }
+    },
+    {
+      "name": "Tucker Carlson",
+      "slug": "tucker-carlson",
+      "video": {
+        "id": "H9AxUtUmp-U",
+        "title": "Finance Expert Warns of Cyberattacks & Grid Failure: Buy Gold and Bury It Before AI Deletes the Bank",
+        "url": "https://www.youtube.com/watch?v=H9AxUtUmp-U",
+        "date": "2026-11-23T18:00:06+00:00",
+        "description": "They can hack your bank account but not your bullion. Gold is at its lowest price in more than a year. Luke Gromen on why it can only go way up from here.\n\nLuke Gromen is a financial analyst and macroeconomic researcher with more than 20 years of experience on Wall Street. He founded FFTT, LLC in 2014, an investment research firm focused on global economic trends, financial markets, and the connections between geopolitics and the economy. Previously, he was a founding partner at Cleveland Research Company and a partner at Midwest Research. Learn more here: https://fftt-llc.com/ \n\nPaid partnerships with:\n\nEthos: Protect your family with life insurance from Ethos. Get up to $3 million in coverage in as little as 10 minutes at https://ethos.com/TUCKER\n\nBattalion Metals: Don't wait to move some of your wealth outside the system. https://battalionmetals.com/tucker\n\nDefend: Shop the Black Friday/Cyber Monday sale now at https://defendcellcam.com\n\nAmerican Financing: NMLS 182334, nmlsconsumeraccess.org. Average savings based on borrowers who save over $199.99. Call 800-685-5696 or visit http://www.AmericanFinancing.net/Tucker.\n\n#TuckerCarlson #JensenHuang #NVIDIA #cyberattacks #America #debt #AI #gold #government #Iranwar #China #housingmarket #news #politics #podcast\n\nChapters:\n0:00 Who’s Behind the Cyber Attacks?\n8:58 Why Is the Price of Gold Falling?\n18:28 How High Can Gold Go?\n22:19 What Actually Backs the Dollar?\n28:26 Why Rebuilding America Could Trigger a Debt Spiral\n33:21 Why They Took Out Jensen Huang\n35:55 How America’s Debt Is Now Bigger Than Its Revenue\n44:41 Is AI a Snake Eating Its Own Tail?\n50:22 How AI Could Wipe Out the Banks\n56:14 Where Did All the Money Go?\n1:00:40 Did the Iran War Destroy the American Empire?\n1:05:35 Will the Government Come for Your Gold?\n1:10:35 The Secret Plan to Revalue America's Gold\n1:19:42 What Happens if Saudi Arabia Falls?\n1:32:27 How China Is Breaking the Dollar's Grip on Oil\n1:37:10 Why Boomers Are Holding the Housing Market Hostage"
+      }
+    },
+    {
+      "name": "George Galloway",
+      "slug": "george-galloway",
+      "video": {
+        "id": "xB-MdPcWwUA",
+        "title": "BREAKING: They killed the dream of America",
+        "url": "https://www.youtube.com/watch?v=xB-MdPcWwUA",
+        "date": "2026-11-23T19:04:48+00:00",
+        "description": "It's sixty three years since JFK was murdered, and we still don't have all the hidden files + Starving at Christmas? Wife and four kids of sanctioned journalist Chay Bowes + Ukraine hits Russian ships and sinks a warship in the Med. Europe's hand\n\nWatch #MOATS Live every Sunday & Wednesday 7PM London Time\n\nFollow @moatstv 606 #ChayBowes #Ukraine #Russia #sanctioned"
+      }
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>The Daily Briefing</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,600;6..72,700&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#F6F3EC; --surface:#FFFDF8; --ink:#1C1B19; --muted:#6B675E; --line:#DDD6C8;
+  --west:#2D4E8A; --brics:#A65A16; --indie:#2E6B4F;
+  color-scheme:light;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --bg:#151412; --surface:#1E1C19; --ink:#EDE8DE; --muted:#A39D90; --line:#36322C;
+    --west:#8FAEEA; --brics:#E9A15C; --indie:#79C49E;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#151412; --surface:#1E1C19; --ink:#EDE8DE; --muted:#A39D90; --line:#36322C;
+  --west:#8FAEEA; --brics:#E9A15C; --indie:#79C49E;
+  color-scheme:dark;
+}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{
+  margin:0; background:var(--bg); color:var(--ink);
+  font-family:"Instrument Sans",ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+  font-size:16px; line-height:1.55;
+}
+.wrap{max-width:1080px; margin:0 auto; padding:0 22px 72px}
+.serif{font-family:"Newsreader",Georgia,"Times New Roman",serif}
+
+header{padding:44px 0 22px; border-bottom:3px double var(--ink); margin-bottom:34px}
+.kicker{font-size:.78rem; letter-spacing:.14em; text-transform:uppercase; color:var(--muted); display:flex; justify-content:space-between; gap:12px; flex-wrap:wrap}
+h1{font-family:"Newsreader",Georgia,serif; font-weight:700; font-size:clamp(2.6rem,8vw,4.8rem); line-height:1; letter-spacing:-.02em; margin:14px 0 8px}
+.lede{color:var(--muted); margin:0; max-width:56ch}
+
+.section{margin-bottom:46px}
+.section-head{display:flex; align-items:baseline; gap:12px; border-bottom:1px solid var(--line); padding-bottom:10px; margin-bottom:20px}
+.section-head h2{font-family:"Newsreader",Georgia,serif; font-size:1.7rem; margin:0; font-weight:600}
+.tag{width:12px; height:12px; border-radius:2px; flex:none; align-self:center}
+.section-note{color:var(--muted); font-size:.88rem; margin-left:auto}
+
+.grid{display:grid; gap:18px; grid-template-columns:repeat(auto-fill,minmax(280px,1fr))}
+.card{background:var(--surface); border:1px solid var(--line); border-top:3px solid var(--accent); border-radius:6px; padding:16px 18px 18px}
+.card h3{margin:0 0 10px; font-size:1.02rem; font-weight:600; display:flex; justify-content:space-between; gap:8px}
+.card h3 a{color:inherit; text-decoration:none}
+.card h3 a:hover{text-decoration:underline}
+.card h3 .src{color:var(--muted); font-weight:400; font-size:.82rem}
+.card ul{margin:0; padding-left:1.1em}
+.card li{margin:0 0 9px; font-family:"Newsreader",Georgia,serif; font-size:1.08rem; line-height:1.35}
+.card li::marker{color:var(--accent)}
+.card li a{color:var(--ink); text-decoration:none; background-image:linear-gradient(var(--accent),var(--accent)); background-size:0 1px; background-repeat:no-repeat; background-position:0 100%; transition:background-size .2s}
+.card li a:hover{background-size:100% 1px}
+.placeholder{color:var(--muted); font-style:italic}
+.date{display:block; font-family:"Instrument Sans",sans-serif; font-size:.8rem; color:var(--muted); margin-top:2px}
+.empty-card{border-style:dashed; border-top-style:solid}
+
+.west{--accent:var(--west)} .brics{--accent:var(--brics)} .indie{--accent:var(--indie)}
+.tag.west{background:var(--west)} .tag.brics{background:var(--brics)} .tag.indie{background:var(--indie)}
+
+footer{border-top:1px solid var(--line); padding-top:16px; color:var(--muted); font-size:.85rem}
+
+/* summary view */
+.back{display:inline-flex; gap:6px; align-items:center; color:var(--muted); text-decoration:none; font-size:.92rem; margin:34px 0 18px}
+.back:hover{color:var(--ink)}
+article.summary{max-width:68ch}
+article.summary .kicker{justify-content:flex-start}
+article.summary h1{font-size:clamp(2rem,5.5vw,3rem); line-height:1.1}
+article.summary p{font-family:"Newsreader",Georgia,serif; font-size:1.18rem; line-height:1.6}
+.watch{display:inline-block; margin-top:10px; padding:9px 16px; border:1px solid var(--ink); border-radius:999px; color:var(--ink); text-decoration:none; font-weight:500}
+.watch:hover{background:var(--ink); color:var(--bg)}
+:focus-visible{outline:2px solid var(--accent,var(--west)); outline-offset:3px}
+</style>
+</head>
+<body>
+<div class="wrap" id="app"></div>
+
+<script>
+/* ============================================================
+   FEED DATA — this is the only part that changes each day.
+   update.py rewrites everything between FEED-START and FEED-END.
+   headline: { title, url }          url = original article
+   video:    { title, originalTitle, url, date, summary, basis }
+             url = YouTube video; basis = "transcript" | "description"
+   ============================================================ */
+/*FEED-START*/
+const FEED = {
+  "updated": "2026-11-23T14:33:22-06:00",
+  "sections": [
+    {
+      "id": "west",
+      "title": "Western Mainstream Media",
+      "note": "Top 3 headlines per outlet",
+      "sources": [
+        {
+          "name": "BBC News",
+          "site": "https://www.bbc.com/news",
+          "headlines": [
+            {
+              "title": "My approach to EU is pragmatic, says Burnham",
+              "url": "https://www.bbc.co.uk/news/articles/c6vg2v9xkr40o"
+            },
+            {
+              "title": "Russian warship hit by Ukrainian drones in Libya, Zelensky says",
+              "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo"
+            },
+            {
+              "title": "UK to host 2035 Women's World Cup, Fifa confirms",
+              "url": "https://www.bbc.co.uk/sport/football/articles/cx30g83716lzo"
+            }
+          ]
+        },
+        {
+          "name": "CNN",
+          "site": "https://www.cnn.com",
+          "headlines": [
+            {
+              "title": "New York judge urged Kalshi to compromise on limiting bets by anyone under 21",
+              "url": "https://www.cnn.com/2026/11/23/politics/judge-kalshi-limiting-bets-under-21"
+            },
+            {
+              "title": "House Ethics panel finds Democratic Rep. Jimmy Gomez had unwelcome sexual contact with former staffer",
+              "url": "https://www.cnn.com/2026/11/23/politics/house-ethics-committee-reports-jimmy-gomez"
+            },
+            {
+              "title": "Nvidia’s $1.5 trillion boardroom blunder helped bring Jensen Huang back",
+              "url": "https://www.cnn.com/2026/11/23/tech/nvidia-reinstates-jensen-huang-corporate-governance"
+            }
+          ]
+        },
+        {
+          "name": "DW",
+          "site": "https://www.dw.com/en",
+          "headlines": [
+            {
+              "title": "Denmark: Top court backs hardline immigration \"ghetto law\"",
+              "url": "https://www.dw.com/en/denmark-top-court-backs-hardline-immigration-ghetto-law/a-80026478"
+            },
+            {
+              "title": "Tajikistan follows US call, withdraws from ICC",
+              "url": "https://www.dw.com/en/tajikistan-follows-us-call-withdraws-from-icc/a-80023903"
+            },
+            {
+              "title": "US and UK to host Women's World Cups in 2031 and 2035",
+              "url": "https://www.dw.com/en/us-and-uk-to-host-women-s-world-cups-in-2031-and-2035/a-80023786"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "brics",
+      "title": "BRICS Mainstream Media",
+      "note": "Outlets to be added",
+      "sources": []
+    },
+    {
+      "id": "indie",
+      "title": "Alternative & Independent Media",
+      "note": "Latest video from each channel",
+      "sources": [
+        {
+          "name": "Judging Freedom",
+          "slug": "judging-freedom",
+          "videos": [
+            {
+              "title": "The Trilateral Summit: Are the US, Russia and China Dividing the World?",
+              "originalTitle": "The Trilateral Summit: Are the US, Russia, and China Dividing the World?",
+              "date": "2026-11-23T18:00:13+00:00",
+              "url": "https://www.youtube.com/watch?v=CUHXFjl386g",
+              "summary": "Judge Andrew Napolitano's latest episode asks whether the United States, Russia and China are carving the world into spheres of influence after the recent trilateral summit.\n\nThe video's public description lists only the host's books and channel membership links, so no further detail about the guests or the arguments made was available when this summary was written.",
+              "basis": "description"
+            }
+          ]
+        },
+        {
+          "name": "Double Down News",
+          "slug": "double-down-news",
+          "videos": [
+            {
+              "title": "Lowkey on Fergie Chambers' Extradition Fight in Spain",
+              "originalTitle": "“IT’S A SETUP”: Lowkey DROPS BOMBSHELL on Spain & Trump’s Extradition Deal",
+              "date": "2026-11-23T16:05:29+00:00",
+              "url": "https://www.youtube.com/watch?v=yMNXanoz2I0",
+              "summary": "Journalist and musician Lowkey reports for Double Down News on the case of Fergie Chambers, an American philanthropist and activist whom Spain's National Court in Madrid has granted conditional bail while the United States seeks his extradition. Chambers has also filed an urgent asylum application.\n\nDrawing on public court records and legal commentary, the video reviews Chambers' funding of humanitarian relief projects and the federal charges stemming from a 2023 demonstration in New Hampshire. It sets out the constitutional and First Amendment arguments raised in his defence.\n\nLowkey also points to what the video describes as evidentiary and translation discrepancies acknowledged by US officials, and to alleged breaches of the 1970 US–Spain extradition treaty. The video presents the case as a setup.\n\nThe report closes with warnings from the UN Special Rapporteur on Human Rights Defenders and remarks from Chambers himself, ahead of a final decision by Prime Minister Pedro Sánchez's government.",
+              "basis": "description"
+            }
+          ]
+        },
+        {
+          "name": "Glenn Diesen",
+          "slug": "glenn-diesen",
+          "videos": [
+            {
+              "title": "Chas Freeman: A New Great-Power Order and Europe's 'Dark Age'",
+              "originalTitle": "Chas Freeman: New Great Power Order & Europe's New Dark Age",
+              "date": "2026-11-23T20:00:29+00:00",
+              "url": "https://www.youtube.com/watch?v=hFBLXQclaa4",
+              "summary": "Glenn Diesen interviews Chas Freeman, a former US Assistant Secretary of Defense and US ambassador to Saudi Arabia during the 1991 Gulf War, about shifts in global power.\n\nAccording to the episode chapters, the conversation starts from the meeting between Xi Jinping, Vladimir Putin and Donald Trump and what it signals for the balance of power. They discuss Europe's absence from that diplomacy, the role of the United Nations in current conflicts and the prospect of a new global order.\n\nThe second half turns to Europe itself: challenges to European unity, the case for reforming EU institutions and the need for a European security architecture. They also discuss political realism and what the chapters call the decline of Enlightenment values.\n\nLater chapters cover freedom of speech and political ostracism, 'the illusions of European power', and what Freeman and Diesen describe as a dystopian turn in Western societies. They close on how to navigate the changes ahead.",
+              "basis": "description"
+            }
+          ]
+        },
+        {
+          "name": "Chris Hedges",
+          "slug": "chris-hedges",
+          "videos": [
+            {
+              "title": "Chris Hedges and Dan Boguslaw on How 'Terrorism' Became a Political Weapon",
+              "originalTitle": "How the Definition of 'Terrorism' Has Been Weaponized by the Deep State for Decades(w/ Dan Boguslaw)",
+              "date": "2026-11-21T01:16:24+00:00",
+              "url": "https://www.youtube.com/watch?v=itrifY2Tx3o",
+              "summary": "In this clip from The Chris Hedges Report, Chris Hedges and journalist Dan Boguslaw discuss how the definition of 'terrorism' has, in their view, been used by the US security state for decades to target political opponents.\n\nThe video's description links to the full episode but gives no further detail about the discussion.",
+              "basis": "description"
+            }
+          ]
+        },
+        {
+          "name": "The Grayzone",
+          "slug": "the-grayzone",
+          "videos": [
+            {
+              "title": "Tehran Fire Department Spokesman Recalls Rescues During the US-Israeli Strikes",
+              "originalTitle": "'I'll never forget these scenes'- Tehran Fire Dept spox on rescuing civilians under US-Israeli bombs",
+              "date": "2026-11-23T17:33:47+00:00",
+              "url": "https://www.youtube.com/watch?v=slmye_Y3Nyc",
+              "summary": "Max Blumenthal of The Grayzone interviews Jalal Maleki, spokesman for the Tehran Fire Department, about the US-Israeli air campaign against Iran earlier this year.\n\nMaleki describes pulling children from the rubble of large residential buildings destroyed in the strikes. He says the attacks followed a pattern of targeting civilian neighbourhoods, a characterisation the video presents as his account.\n\nMaleki says he was among the first at the scene after the bombing of Ayatollah Ali Khamenei's offices, and gives his account of what he found there, including members of the leader's family.\n\nHe also says US sanctions and the ongoing naval blockade have limited his department's ability to save lives as it prepares for what he calls a possible third round of war.",
+              "basis": "description"
+            }
+          ]
+        },
+        {
+          "name": "Tucker Carlson",
+          "slug": "tucker-carlson",
+          "videos": [
+            {
+              "title": "Luke Gromen Tells Tucker Carlson Why He Is Betting on Gold",
+              "originalTitle": "Finance Expert Warns of Cyberattacks & Grid Failure: Buy Gold and Bury It Before AI Deletes the Bank",
+              "date": "2026-11-23T18:00:06+00:00",
+              "url": "https://www.youtube.com/watch?v=H9AxUtUmp-U",
+              "summary": "Tucker Carlson interviews Luke Gromen, founder of the investment research firm FFTT, who argues that gold, now at its lowest price in more than a year, can only rise sharply from here. Gromen frames physical gold as a hedge against cyberattacks and banking failures.\n\nAccording to the episode chapters, the conversation covers who is behind recent cyberattacks, why gold prices have fallen, what backs the US dollar, and why Gromen thinks rebuilding American industry could set off a debt spiral as federal debt costs outgrow revenue.\n\nThey also discuss the reinstatement of Nvidia's Jensen Huang, whether AI could undermine the banking system, and whether the Iran war has weakened American power.\n\nLater chapters ask whether the government might seize private gold or revalue the country's gold reserves. They also cover what would happen if Saudi Arabia fell, how China is challenging the dollar in oil trading, and how older homeowners are affecting the housing market. The episode includes paid promotions, including one for a precious-metals dealer.",
+              "basis": "description"
+            }
+          ]
+        },
+        {
+          "name": "George Galloway",
+          "slug": "george-galloway",
+          "videos": [
+            {
+              "title": "George Galloway on JFK at 63, Chay Bowes' Family and Ukraine's Strikes at Sea",
+              "originalTitle": "BREAKING: They killed the dream of America",
+              "date": "2026-11-23T19:04:48+00:00",
+              "url": "https://www.youtube.com/watch?v=xB-MdPcWwUA",
+              "summary": "In this episode of MOATS, George Galloway marks 63 years since the assassination of President John F. Kennedy, arguing that the files on the killing have still not been fully released.\n\nHe also raises the situation of the wife and four children of journalist Chay Bowes, who is under sanctions, under the heading 'Starving at Christmas?'.\n\nThe programme also covers Ukraine's attacks on Russian ships, including the sinking of a Russian warship in the Mediterranean, and what the description calls Europe's hand in these events.",
+              "basis": "description"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+};
+/*FEED-END*/
+/* ============================================================ */
+
+const app = document.getElementById('app');
+const el = (tag, attrs = {}, ...kids) => {
+  const n = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs)) {
+    if (k === 'class') n.className = v; else if (v != null) n.setAttribute(k, v);
+  }
+  for (const c of kids) if (c != null) n.append(c);
+  return n;
+};
+const fmtDate = iso => {
+  if (!iso) return null;
+  const d = new Date(iso);
+  return isNaN(d) ? null : d.toLocaleDateString(undefined, { weekday:'long', year:'numeric', month:'long', day:'numeric' });
+};
+const placeholderItem = (text) => el('li', {}, el('span', { class:'placeholder' }, text));
+
+function renderHome(){
+  const updated = fmtDate(FEED.updated);
+  app.replaceChildren(
+    el('header', {},
+      el('div', { class:'kicker' },
+        el('span', {}, updated ? 'Updated ' + updated : 'Template preview — no stories loaded yet'),
+        el('span', {}, 'Three sections · Daily')),
+      el('h1', {}, 'The Daily Briefing'),
+      el('p', { class:'lede' }, 'Western, BRICS and independent coverage, side by side. Click a headline to read the original article, or a video title to read its summary.')
+    ),
+    ...FEED.sections.map(renderSection),
+    el('footer', {}, 'Headlines link to the original publishers. Video summaries are written by AI from each video’s transcript or, where none is available, its title and description.')
+  );
+  document.title = 'The Daily Briefing';
+}
+
+function renderSection(sec){
+  const grid = el('div', { class:'grid' });
+  if (!sec.sources.length){
+    for (let i = 0; i < 3; i++){
+      grid.append(el('div', { class:'card empty-card ' + sec.id },
+        el('h3', {}, el('span', { class:'placeholder' }, 'Outlet ' + (i + 1))),
+        el('ul', {}, placeholderItem('Headline'), placeholderItem('Headline'), placeholderItem('Headline'))));
+    }
+  }
+  for (const src of sec.sources){
+    const list = el('ul');
+    if (sec.id === 'indie'){
+      const v = (src.videos || [])[0];
+      if (v){
+        const d = fmtDate(v.date);
+        list.append(el('li', {}, el('a', { href:'#summary-' + src.slug }, v.title), d ? el('span', { class:'date' }, d) : null));
+      } else list.append(placeholderItem('Latest video headline appears here'));
+    } else {
+      const hs = (src.headlines || []).slice(0, 3);
+      hs.forEach(h => list.append(el('li', {},
+        h.url ? el('a', { href:h.url, target:'_blank', rel:'noopener' }, h.title) : h.title)));
+      for (let i = hs.length; i < 3; i++) list.append(placeholderItem('Headline ' + (i + 1)));
+    }
+    const nameNode = src.site ? el('a', { href:src.site, target:'_blank', rel:'noopener' }, src.name) : src.name;
+    grid.append(el('div', { class:'card ' + sec.id },
+      el('h3', {}, nameNode, sec.id === 'indie' ? el('span', { class:'src' }, 'YouTube') : null),
+      list));
+  }
+  return el('section', { class:'section ' + sec.id, 'aria-labelledby':'h-' + sec.id },
+    el('div', { class:'section-head' },
+      el('span', { class:'tag ' + sec.id, 'aria-hidden':'true' }),
+      el('h2', { id:'h-' + sec.id }, sec.title),
+      el('span', { class:'section-note' }, sec.note)),
+    grid);
+}
+
+function renderSummary(slug){
+  const indie = FEED.sections.find(s => s.id === 'indie');
+  const src = indie && indie.sources.find(s => s.slug === slug);
+  if (!src) return renderHome();
+  const v = (src.videos || [])[0];
+  const body = el('article', { class:'summary indie' },
+    el('div', { class:'kicker' }, el('span', {}, src.name + (v && fmtDate(v.date) ? ' · ' + fmtDate(v.date) : ''))),
+    el('h1', {}, v ? v.title : 'No video loaded yet'));
+  if (v && v.originalTitle && v.originalTitle !== v.title)
+    body.append(el('p', { class:'placeholder', style:'font-size:.95rem' }, 'Original title: ' + v.originalTitle));
+  if (v && v.summary){
+    const basisNote = v.basis === 'transcript'
+      ? 'Summary written from the video’s transcript.'
+      : 'Summary written from the video’s public title and description, not its full transcript.';
+    body.append(el('p', { class:'placeholder', style:'font-size:.95rem' }, basisNote));
+    String(v.summary).split(/\n\s*\n/).forEach(p => body.append(el('p', {}, p.trim())));
+  } else {
+    body.append(el('p', { class:'placeholder' }, 'The summary of this channel’s latest video will appear here once the feed is updated.'));
+  }
+  if (v && v.url) body.append(el('a', { class:'watch', href:v.url, target:'_blank', rel:'noopener' }, 'Watch or listen ↗'));
+  app.replaceChildren(el('a', { class:'back', href:'#' }, '← Back to the briefing'), body);
+  document.title = (v ? v.title : src.name) + ' — The Daily Briefing';
+  window.scrollTo(0, 0);
+}
+
+function route(){
+  const h = location.hash.replace(/^#/, '');
+  if (h.startsWith('summary-')) renderSummary(h.slice(8));
+  else renderHome();
+}
+window.addEventListener('hashchange', route);
+route();
+</script>
+</body>
+</html>
