@@ -38,6 +38,13 @@ WESTERN = [
     # Google-News sitemap instead (its newest news articles).
     {"name": "CNN", "site": "https://www.cnn.com",
      "kind": "cnn_sitemap", "url": "https://www.cnn.com/sitemap/news.xml"},
+    # The Guardian: its world news section, newest first (its front-page
+    # feed is mostly features and lifestyle pieces).
+    {"name": "The Guardian", "site": "https://www.theguardian.com/international",
+     "kind": "rss", "url": "https://www.theguardian.com/world/rss", "sort": True},
+    # Fox News: its newest stories across all sections.
+    {"name": "Fox News", "site": "https://www.foxnews.com",
+     "kind": "rss", "url": "https://moxie.foxnews.com/google-publisher/latest.xml", "sort": True},
     {"name": "DW", "site": "https://www.dw.com/en",
      "kind": "rss", "url": "https://rss.dw.com/rdf/rss-en-top"},
 ]
@@ -108,7 +115,14 @@ def rss_headlines(url, n=3, sort=False):
         if not title or not link:
             continue
         # skip video/live/audio-only items so we keep real articles
-        if re.search(r"/(videos?|av|live|audios?|sounds|sport|opinion)/", link):
+        if re.search(r"/(videos?|av|live|audios?|sounds|sports?|opinion|commentisfree|"
+                     r"outkick[^/]*|entertainment|lifestyle)/", link):
+            continue
+        # columns and opinion pieces carry the writer's name: "Title | Name"
+        if re.search(r" \| [A-Z]", title):
+            continue
+        # items dated in the future are scheduled, not yet news
+        if item_date(it) > datetime.now(timezone.utc):
             continue
         # drop tracking codes like ?at_medium=RSS from BBC/DW links
         out.append({"title": title, "url": link.split("?")[0]})
@@ -245,7 +259,7 @@ def build():
         "updated": datetime.now().astimezone().isoformat(timespec="seconds"),
         "sections": [
             {"id": "west", "title": "Western Mainstream Media",
-             "note": "Top 3 headlines per outlet", "sources": f["western"]},
+             "note": "3 headlines per outlet", "sources": f["western"]},
             {"id": "brics", "title": "BRICS Mainstream Media",
              "note": "Latest 3 headlines per outlet", "sources": f.get("brics", [])},
             {"id": "indie", "title": "Alternative & Independent Media",
