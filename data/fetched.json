@@ -1,21 +1,21 @@
 {
-  "fetched": "2026-11-23T20:33:18+00:00",
+  "fetched": "2026-11-23T22:52:03+00:00",
   "western": [
     {
       "name": "BBC News",
       "site": "https://www.bbc.com/news",
       "headlines": [
         {
+          "title": "US to blacklist Asian AI firm Megaspeed after Nvidia scandal",
+          "url": "https://www.bbc.co.uk/news/articles/cv98xpg5dg5zo"
+        },
+        {
           "title": "My approach to EU is pragmatic, says Burnham",
           "url": "https://www.bbc.co.uk/news/articles/c6vg2v9xkr40o"
         },
         {
-          "title": "Russian warship hit by Ukrainian drones in Libya, Zelensky says",
-          "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo"
-        },
-        {
-          "title": "UK to host 2035 Women's World Cup, Fifa confirms",
-          "url": "https://www.bbc.co.uk/sport/football/articles/cx30g83716lzo"
+          "title": "What strike on Russian ship in Libya says about spread of Ukraine war",
+          "url": "https://www.bbc.co.uk/news/articles/cm894p88jzxpo"
         }
       ]
     },
@@ -24,16 +24,16 @@
       "site": "https://www.cnn.com",
       "headlines": [
         {
-          "title": "New York judge urged Kalshi to compromise on limiting bets by anyone under 21",
-          "url": "https://www.cnn.com/2026/11/23/politics/judge-kalshi-limiting-bets-under-21"
+          "title": "Trump gets another shot in his quest to overturn hush money conviction",
+          "url": "https://www.cnn.com/2026/11/23/politics/trump-attempt-overturn-hush-money-conviction"
         },
         {
-          "title": "House Ethics panel finds Democratic Rep. Jimmy Gomez had unwelcome sexual contact with former staffer",
-          "url": "https://www.cnn.com/2026/11/23/politics/house-ethics-committee-reports-jimmy-gomez"
+          "title": "Iran flogs female singer and four members of concert team over her performance without hijab",
+          "url": "https://www.cnn.com/2026/11/23/middleeast/iran-flogs-singer-parastoo-ahmadi-latam-intl"
         },
         {
-          "title": "Nvidia’s $1.5 trillion boardroom blunder helped bring Jensen Huang back",
-          "url": "https://www.cnn.com/2026/11/23/tech/nvidia-reinstates-jensen-huang-corporate-governance"
+          "title": "Trump’s major risk on Jensen Huang",
+          "url": "https://www.cnn.com/2026/11/23/politics/trump-jensen-huang-nvidia"
         }
       ]
     },
@@ -42,18 +42,96 @@
       "site": "https://www.dw.com/en",
       "headlines": [
         {
+          "title": "US adds Megaspeed, at center of Nvidia scandal, to a trade blacklist",
+          "url": "https://www.dw.com/en/us-adds-megaspeed-at-center-of-nvidia-scandal-to-a-trade-blacklist/a-80026849"
+        },
+        {
           "title": "Denmark: Top court backs hardline immigration \"ghetto law\"",
           "url": "https://www.dw.com/en/denmark-top-court-backs-hardline-immigration-ghetto-law/a-80026478"
         },
         {
           "title": "Tajikistan follows US call, withdraws from ICC",
           "url": "https://www.dw.com/en/tajikistan-follows-us-call-withdraws-from-icc/a-80023903"
-        },
-        {
-          "title": "US and UK to host Women's World Cups in 2031 and 2035",
-          "url": "https://www.dw.com/en/us-and-uk-to-host-women-s-world-cups-in-2031-and-2035/a-80023786"
         }
       ]
+    }
+  ],
+  "brics": [
+    {
+      "name": "TASS",
+      "site": "https://tass.com",
+      "headlines": [
+        {
+          "title": "Russia yet to choose head of G20 delegation — diplomat",
+          "url": "https://tass.com/politics/2223645"
+        },
+        {
+          "title": "Trump postpones detonation of hazardous materials in Iowa pending court ruling",
+          "url": "https://tass.com/world/2223643"
+        },
+        {
+          "title": "Russia-US-China summit signals shift towards multipolarity — Pakistani envoy",
+          "url": "https://tass.com/world/2223641"
+        }
+      ],
+      "country": "Russia"
+    },
+    {
+      "name": "CGTN",
+      "site": "https://www.cgtn.com",
+      "headlines": [
+        {
+          "title": "CPC governance: Staying close to the people and fighting corruption",
+          "url": "https://news.cgtn.com/news/2026-11-23/CPC-governance-Staying-close-to-the-people-and-fighting-corruption-1SivMTyugF2/p.html"
+        },
+        {
+          "title": "Chinese vice premier calls for strengthened cooperation with Singapore",
+          "url": "https://news.cgtn.com/news/2026-11-23/Chinese-vice-premier-calls-for-strengthened-cooperation-with-Singapore-1SirG4fi1S8/p.html"
+        },
+        {
+          "title": "Signs of U.S. \"brain drain\" amid Trump administration policies",
+          "url": "https://newsus.cgtn.com/news/2026-11-23/-Signs-of-U-S-brain-drain-amid-Trump-administration-policies--1Si8xvxgozS/p.html"
+        }
+      ],
+      "country": "China"
+    },
+    {
+      "name": "The Hindu",
+      "site": "https://www.thehindu.com",
+      "headlines": [
+        {
+          "title": "Federal appeals court gives President Donald Trump path to erasing hush money conviction",
+          "url": "https://www.thehindu.com/news/international/federal-appeals-court-gives-president-donald-trump-path-to-erasing-hush-money-conviction/article71736252.ece"
+        },
+        {
+          "title": "Close to realising PM Narendra Modi’s dream for Kashmir, says Kiren Rijiju",
+          "url": "https://www.thehindu.com/news/national/jammu-and-kashmir/close-to-realising-pm-narendra-modis-dream-for-kashmir-says-kiren-rijiju/article71736247.ece"
+        },
+        {
+          "title": "Will bank manager accept Kayalvizhi Alagiri’s apology, asks Madras High Court",
+          "url": "https://www.thehindu.com/news/national/tamil-nadu/will-bank-manager-accept-kayalvizhi-alagiris-apology-asks-madras-high-court/article71735095.ece"
+        }
+      ],
+      "country": "India"
+    },
+    {
+      "name": "Agência Brasil",
+      "site": "https://agenciabrasil.ebc.com.br/en",
+      "headlines": [
+        {
+          "title": "Brazilian government to take new measures to combat child marriage",
+          "url": "https://agenciabrasil.ebc.com.br/en/direitos-humanos/noticia/2026-11/brazilian-government-take-new-measures-combat-child-marriage"
+        },
+        {
+          "title": "Brazil’s fiscal adjustment projected to save up to BRL 56.1B in 2027",
+          "url": "https://agenciabrasil.ebc.com.br/en/politica/noticia/2026-11/fiscal-adjustment-projected-save-brl-561b-2027"
+        },
+        {
+          "title": "Albardão Park: From marine graveyard to hope for a sanctuary",
+          "url": "https://agenciabrasil.ebc.com.br/en/meio-ambiente/noticia/2026-11/albardao-park-marine-graveyard-hope-sanctuary"
+        }
+      ],
+      "country": "Brazil"
     }
   ],
   "videos": [
@@ -61,10 +139,10 @@
       "name": "Judging Freedom",
       "slug": "judging-freedom",
       "video": {
-        "id": "CUHXFjl386g",
-        "title": "The Trilateral Summit: Are the US, Russia, and China Dividing the World?",
-        "url": "https://www.youtube.com/watch?v=CUHXFjl386g",
-        "date": "2026-11-23T18:00:13+00:00",
+        "id": "F4aVgbAtOUU",
+        "title": "Trump's Shenzhen Summit: A Tale Told By An Idiot?",
+        "url": "https://www.youtube.com/watch?v=F4aVgbAtOUU",
+        "date": "2026-11-23T21:00:35+00:00",
         "description": "Books from Judge Napolitano:\n\nFreedom’s Anchor: An Introduction to Natural Law Jurisprudence in American Constitutional History\nhttps://amzn.to/4kDJa6L\n\nLies the Government Told You: Myth, Power, and Deception in American History\nhttps://amzn.to/4kLdexv\n\nIt Is Dangerous to Be Right When the Government Is Wrong: The Case for Personal Freedom \nhttps://amzn.to/43DcBPG\n\nThe Constitution in Exile: How the Federal Government Has Seized Power by Rewriting the Supreme Law of the Land\nhttps://amzn.to/3ZGxGaz\n\nA Nation of Sheep\nhttps://amzn.to/4jt2jqV\n\nThe Freedom Answer Book: How the Government Is Taking Away Your Constitutional Freedoms (Answer Book Series)\nhttps://amzn.to/4dCGWlT\n\nNapolitano 3 in 1: Constitutional Chaos, The Constitution in Exile, and A Nation of Sheep\nhttps://amzn.to/43HDnq3\n\nDred Scott's Revenge: A Legal History of Race and Freedom in America\nhttps://amzn.to/3SVP5Iq\n\nSuicide Pact: The Radical Expansion of Presidential Powers and the Lethal Threat to American Liberty\nhttps://amzn.to/4jiGY3r\n\n\nJoin this channel to get access to perks:\nhttps://www.youtube.com/channel/UCDkEYb-TXJVWLvOokshtlsw/join"
       }
     },
@@ -87,7 +165,7 @@
         "title": "Chas Freeman: New Great Power Order & Europe's New Dark Age",
         "url": "https://www.youtube.com/watch?v=hFBLXQclaa4",
         "date": "2026-11-23T20:00:29+00:00",
-        "description": "Ambassador Chas Freeman was a former Assistant Secretary of Defense, earning the highest public service awards of the Department of Defense for his roles in designing a NATO-centred post-Cold War European security system and in reestablishing defence and military relations with China. He served as U.S. Ambassador to Saudi Arabia during operations Desert Shield and Desert Storm. Read Chas Freeman's Substack: https://substack.com/@chasfreeman662157\n\nBooks by Prof. Glenn Diesen: \nhttps://www.amazon.com/stores/author/B09FPQ4MDL\n\nFollow Prof. Glenn Diesen: \nSubstack: https://glenndiesen.substack.com/ \nX/Twitter: https://x.com/Glenn_Diesen\nPatreon: https://www.patreon.com/glenndiesen \n\nSupport the research by Prof. Glenn Diesen: \nPayPal: https://www.paypal.com/paypalme/glenndiesen\nBuy me a Coffee: buymeacoffee.com/gdieseng\nGo Fund Me: https://gofund.me/09ea012f\nBuy Diesen merchandise: https://diesen-shop.fourthwall.com/en-nok\n\n00:00 Introduction and Context of Global Power Dynamics\n00:59 The Significance of the Xi-Putin-Trump Meeting\n02:30 Implications of Global Power Shifts\n04:09 Europe's Absence in Global Diplomacy\n06:32 The Role of the United Nations in Current Conflicts\n08:01 Potential for a New Global Order\n10:00 Challenges Facing European Unity\n12:08 The Need for Reform in European Institutions\n14:19 Historical Context of European Relations\n16:42 The Importance of Security Architecture in Europe\n17:54 Human Nature and Political Realism\n20:36 The Decline of Enlightenment Values\n28:25 Conclusion: The Future of Global Order\n28:52 Freedom of Speech and Political Ostracism\n30:42 The Enlightenment and Modern Political Challenges\n37:07 The Illusions of European Power\n39:17 Disillusionment and the Need for Strategy\n45:01 The Dystopian Shift in Society\n46:13 Navigating Global Changes and Opportunities"
+        "description": "Ambassador Chas Freeman was a former Assistant Secretary of Defense, earning the highest public service awards of the Department of Defense for his roles in designing a NATO-centred post-Cold War European security system and in reestablishing defence and military relations with China. He served as U.S. Ambassador to Saudi Arabia during operations Desert Shield and Desert Storm. Read Chas Freeman's Substack: https://substack.com/@chasfreeman662157\n\nMy article discussed in the podcast (based on my speech from Kaliningrad at Kant's 300th birthday): https://glenndiesen.substack.com/p/the-limits-of-reason-individualism\n\nBooks by Prof. Glenn Diesen: \nhttps://www.amazon.com/stores/author/B09FPQ4MDL\n\nFollow Prof. Glenn Diesen: \nSubstack: https://glenndiesen.substack.com/ \nX/Twitter: https://x.com/Glenn_Diesen\nPatreon: https://www.patreon.com/glenndiesen \n\nSupport the research by Prof. Glenn Diesen: \nPayPal: https://www.paypal.com/paypalme/glenndiesen\nBuy me a Coffee: buymeacoffee.com/gdieseng\nGo Fund Me: https://gofund.me/09ea012f\nBuy Diesen merchandise: https://diesen-shop.fourthwall.com/en-nok\n\n00:00 Introduction and Context of Global Power Dynamics\n00:59 The Significance of the Xi-Putin-Trump Meeting\n02:30 Implications of Global Power Shifts\n04:09 Europe's Absence in Global Diplomacy\n06:32 The Role of the United Nations in Current Conflicts\n08:01 Potential for a New Global Order\n10:00 Challenges Facing European Unity\n12:08 The Need for Reform in European Institutions\n14:19 Historical Context of European Relations\n16:42 The Importance of Security Architecture in Europe\n17:54 Human Nature and Political Realism\n20:36 The Decline of Enlightenment Values\n28:25 Conclusion: The Future of Global Order\n28:52 Freedom of Speech and Political Ostracism\n30:42 The Enlightenment and Modern Political Challenges\n37:07 The Illusions of European Power\n39:17 Disillusionment and the Need for Strategy\n45:01 The Dystopian Shift in Society\n46:13 Navigating Global Changes and Opportunities"
       }
     },
     {
@@ -127,11 +205,11 @@
       "name": "George Galloway",
       "slug": "george-galloway",
       "video": {
-        "id": "xB-MdPcWwUA",
-        "title": "BREAKING: They killed the dream of America",
-        "url": "https://www.youtube.com/watch?v=xB-MdPcWwUA",
-        "date": "2026-11-23T19:04:48+00:00",
-        "description": "It's sixty three years since JFK was murdered, and we still don't have all the hidden files + Starving at Christmas? Wife and four kids of sanctioned journalist Chay Bowes + Ukraine hits Russian ships and sinks a warship in the Med. Europe's hand\n\nWatch #MOATS Live every Sunday & Wednesday 7PM London Time\n\nFollow @moatstv 606 #ChayBowes #Ukraine #Russia #sanctioned"
+        "id": "cVlHr6QSlVs",
+        "title": "INTERVIEW: I have guns, come and get me!",
+        "url": "https://www.youtube.com/watch?v=cVlHr6QSlVs",
+        "date": "2026-11-23T22:08:44+00:00",
+        "description": "The US stock market lost $2.5 trillion on Friday, almost $9 trillion in 45 days. If Trump launches another attack, says CIA veteran Larry Johnson, it's going to further tank the market. That may be what's stopping Trump's war\n\nWatch #MOATS Live every Sunday & Wednesday 7PM London Time\n\nFollow @moatstv 606 X: @LarrySonar21 #LarryJohnson #Iran #Trump #Ukraine #BlackFriday"
       }
     }
   ],

@@ -42,7 +42,17 @@ WESTERN = [
      "kind": "rss", "url": "https://rss.dw.com/rdf/rss-en-top"},
 ]
 
-BRICS = []  # outlets to be added later
+BRICS = [
+    {"name": "TASS", "country": "Russia", "site": "https://tass.com",
+     "kind": "rss", "url": "https://tass.com/rss/v2.xml", "sort": True},
+    # CGTN's feed is not in date order and can lag a day behind its website.
+    {"name": "CGTN", "country": "China", "site": "https://www.cgtn.com",
+     "kind": "rss", "url": "https://www.cgtn.com/subscribe/rss/section/world.xml", "sort": True},
+    {"name": "The Hindu", "country": "India", "site": "https://www.thehindu.com",
+     "kind": "rss", "url": "https://www.thehindu.com/news/feeder/default.rss", "sort": True},
+    {"name": "Agência Brasil", "country": "Brazil", "site": "https://agenciabrasil.ebc.com.br/en",
+     "kind": "rss", "url": "https://agenciabrasil.ebc.com.br/en/rss/ultimasnoticias/feed.xml", "sort": True},
+]
 
 CHANNELS = [
     {"name": "Judging Freedom",  "slug": "judging-freedom",  "id": "UCDkEYb-TXJVWLvOokshtlsw"},
@@ -75,9 +85,21 @@ def clean(text):
     return re.sub(r"\s+", " ", html.unescape(text or "")).strip()
 
 
-def rss_headlines(url, n=3):
+def item_date(it):
+    from email.utils import parsedate_to_datetime
+    raw = it.findtext("pubDate") or ""
+    try:
+        d = parsedate_to_datetime(raw)
+        return d if d.tzinfo else d.replace(tzinfo=timezone.utc)
+    except Exception:
+        return datetime.min.replace(tzinfo=timezone.utc)
+
+
+def rss_headlines(url, n=3, sort=False):
     root = ET.fromstring(get(url))
     items = root.findall(".//item") or root.findall(".//rss1:item", NS)
+    if sort:  # for feeds that list by time rather than editors' top stories
+        items = sorted(items, key=item_date, reverse=True)
     out = []
     for it in items:
         title = it.findtext("title") or it.findtext("rss1:title", namespaces=NS)
@@ -86,7 +108,7 @@ def rss_headlines(url, n=3):
         if not title or not link:
             continue
         # skip video/live/audio-only items so we keep real articles
-        if re.search(r"/(videos?|av|live|audios?|sounds)/", link):
+        if re.search(r"/(videos?|av|live|audios?|sounds|sport|opinion)/", link):
             continue
         # drop tracking codes like ?at_medium=RSS from BBC/DW links
         out.append({"title": title, "url": link.split("?")[0]})
@@ -103,7 +125,7 @@ def cnn_headlines(url, n=3):
         title = clean(u.findtext("news:news/news:title", namespaces=NS))
         date = u.findtext("news:news/news:publication_date", namespaces=NS) or ""
         # keep news articles only: skip shopping, videos, live blogs, gallery pages
-        if not title or re.search(r"/(cnn-underscored|videos?|live-news|gallery|travel|style)/", loc):
+        if not title or re.search(r"/(cnn-underscored|videos?|live-news|gallery|travel|style|sport|sports|entertainment)/", loc):
             continue
         rows.append((date, {"title": title, "url": loc}))
     rows.sort(key=lambda r: r[0], reverse=True)
@@ -164,14 +186,19 @@ def load_json(path, default):
 def fetch():
     DATA.mkdir(exist_ok=True)
     out = {"fetched": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-           "western": [], "videos": [], "errors": []}
-    for s in WESTERN:
-        try:
-            hs = rss_headlines(s["url"]) if s["kind"] == "rss" else cnn_headlines(s["url"])
-        except Exception as ex:
-            hs = []
-            out["errors"].append(f"{s['name']}: {ex}")
-        out["western"].append({"name": s["name"], "site": s["site"], "headlines": hs})
+           "western": [], "brics": [], "videos": [], "errors": []}
+    for key, outlets in (("western", WESTERN), ("brics", BRICS)):
+        for s in outlets:
+            try:
+                hs = (rss_headlines(s["url"], sort=s.get("sort", False)) if s["kind"] == "rss"
+                      else cnn_headlines(s["url"]))
+            except Exception as ex:
+                hs = []
+                out["errors"].append(f"{s['name']}: {ex}")
+            row = {"name": s["name"], "site": s["site"], "headlines": hs}
+            if s.get("country"):
+                row["country"] = s["country"]
+            out[key].append(row)
     for c in CHANNELS:
         try:
             v = newest_video(c["id"])
@@ -183,7 +210,7 @@ def fetch():
 
     done = load_json(SUMMARIES, {})
     print(f"Saved {FETCHED.relative_to(ROOT)}")
-    for w in out["western"]:
+    for w in out["western"] + out["brics"]:
         print(f"  {w['name']}: {len(w['headlines'])} headlines")
     need = [v for v in out["videos"] if v["video"] and v["video"]["id"] not in done]
     print(f"Videos needing a summary: {len(need)}")
@@ -220,7 +247,7 @@ def build():
             {"id": "west", "title": "Western Mainstream Media",
              "note": "Top 3 headlines per outlet", "sources": f["western"]},
             {"id": "brics", "title": "BRICS Mainstream Media",
-             "note": "Outlets to be added", "sources": BRICS},
+             "note": "Latest 3 headlines per outlet", "sources": f.get("brics", [])},
             {"id": "indie", "title": "Alternative & Independent Media",
              "note": "Latest video from each channel", "sources": indie},
         ],
