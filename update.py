@@ -52,6 +52,14 @@ WESTERN = [
 BRICS = [
     {"name": "TASS", "country": "Russia", "site": "https://tass.com",
      "kind": "rss", "url": "https://tass.com/rss/v2.xml", "sort": True},
+    # RT's own feed links to its mirror site rt-english.com (rt.com is
+    # blocked in some countries).
+    {"name": "RT", "country": "Russia", "site": "https://www.rt.com",
+     "kind": "rss", "url": "https://www.rt.com/rss/news/", "sort": True},
+    # Press TV: presstv.ir has an expired security certificate and itself
+    # redirects to www.presstv.co.uk, so we use that address.
+    {"name": "Press TV", "country": "Iran", "site": "https://www.presstv.co.uk",
+     "kind": "rss", "url": "https://www.presstv.co.uk/rss.xml"},
     # CGTN's feed is not in date order and can lag a day behind its website.
     {"name": "CGTN", "country": "China", "site": "https://www.cgtn.com",
      "kind": "rss", "url": "https://www.cgtn.com/subscribe/rss/section/world.xml", "sort": True},
@@ -125,7 +133,11 @@ def rss_headlines(url, n=3, sort=False):
         if item_date(it) > datetime.now(timezone.utc):
             continue
         # drop tracking codes like ?at_medium=RSS from BBC/DW links
-        out.append({"title": title, "url": link.split("?")[0]})
+        link = link.split("?")[0]
+        # Press TV's feed links to presstv.co.uk without "www", whose
+        # certificate is broken; the www address works.
+        link = link.replace("https://presstv.co.uk/", "https://www.presstv.co.uk/")
+        out.append({"title": title, "url": link})
         if len(out) == n:
             break
     return out
