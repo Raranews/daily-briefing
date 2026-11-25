@@ -1,21 +1,21 @@
 {
-  "fetched": "2026-11-24T16:45:28+00:00",
+  "fetched": "2026-11-25T15:06:28+00:00",
   "western": [
     {
       "name": "BBC News",
       "site": "https://www.bbc.com/news",
       "headlines": [
         {
-          "title": "Two arrested on suspicion of burglary at Prince and Princess of Wales's Norfolk home",
-          "url": "https://www.bbc.co.uk/news/articles/cr9d7qdg24vno"
+          "title": "Energy bills to rise by 26% from January after gas prices surge",
+          "url": "https://www.bbc.co.uk/news/articles/cm20qnq33e90o"
         },
         {
-          "title": "Huntley murderer handed new whole life jail term",
-          "url": "https://www.bbc.co.uk/news/articles/cm930y07p0j2o"
+          "title": "Two men charged with trying to steal cufflinks and clock from Royal home",
+          "url": "https://www.bbc.co.uk/news/articles/cx5y1987dyp6o"
         },
         {
-          "title": "Zoe Kleinman: My week with Meta's AI agent Muse ahead of its UK launch",
-          "url": "https://www.bbc.co.uk/news/articles/c9gkld2l38y6o"
+          "title": "Raheem Sterling given suspended jail sentence for dangerous driving and nitrous oxide possession",
+          "url": "https://www.bbc.co.uk/news/articles/cv8e04ll9dd3o"
         }
       ]
     },
@@ -24,16 +24,16 @@
       "site": "https://www.cnn.com",
       "headlines": [
         {
-          "title": "Iran’s leaders want a baby boom. A struggling economy stands in the way",
-          "url": "https://www.cnn.com/2026/11/24/middleeast/iran-population-supreme-leader-baby-boom-intl"
+          "title": "Tech stock sell-off deepens as AI fears outweigh Huang’s Nvidia return",
+          "url": "https://www.cnn.com/2026/11/25/business/ai-sell-off-despite-huang-nvidia-return"
         },
         {
-          "title": "Two arrested after break-in at country home of Prince William and wife Kate, UK police say",
-          "url": "https://www.cnn.com/2026/11/24/uk/uk-royals-william-kate-country-home-intl"
+          "title": "US economy grew faster last quarter than initially reported",
+          "url": "https://www.cnn.com/2026/11/25/economy/us-pce-inflation-spending-gdp"
         },
         {
-          "title": "Key Chinese communist party figure placed under corruption probe as Xi’s purge escalates",
-          "url": "https://www.cnn.com/2026/11/24/china/china-chen-jining-investigated-purge-intl-hnk"
+          "title": "Trump targets China, EU in new round of tariffs",
+          "url": "https://www.cnn.com/2026/11/25/economy/trump-new-tariffs"
         }
       ]
     },
@@ -42,16 +42,16 @@
       "site": "https://www.theguardian.com/international",
       "headlines": [
         {
-          "title": "Southport attack families’ fury after 13 survivors miss out on school funding",
-          "url": "https://www.theguardian.com/uk-news/2026/nov/24/southport-attack-survivors-miss-out-on-school-funding"
+          "title": "High prices force many across the US to scale back for Thanksgiving: ‘We can’t afford the food’",
+          "url": "https://www.theguardian.com/us-news/2026/nov/25/thanksgiving-food-costs-prices"
         },
         {
-          "title": "DEA allowed 1.4m fentanyl pills to be ‘walked’ into US during sting operation, report alleges",
-          "url": "https://www.theguardian.com/society/2026/nov/24/dea-fentanyl-new-mexico-sting"
+          "title": "Heavy rain and high winds on east coast threaten to disrupt Thanksgiving plans",
+          "url": "https://www.theguardian.com/us-news/2026/nov/25/heavy-rain-high-winds-thanksgiving-east-coast"
         },
         {
-          "title": "Irish plan offers Burnham breakthrough on Made in Europe",
-          "url": "https://www.theguardian.com/business/2026/nov/24/uk-eu-made-in-europe-trade-cars-tariffs"
+          "title": "Amazon to start selling cars in the UK next year",
+          "url": "https://www.theguardian.com/uk-news/2026/nov/25/amazon-motors-into-uk-car-market"
         }
       ]
     },
@@ -60,16 +60,16 @@
       "site": "https://www.foxnews.com",
       "headlines": [
         {
-          "title": "Illegal alien with lengthy rap sheet charged in home invasion murder of woman, 62, day after no-bail release",
-          "url": "https://www.foxnews.com/us/illegal-alien-lengthy-rap-sheet-charged-home-invasion-murder-woman-62-day-after-no-bail-release"
+          "title": "Colorado Dems eye changes to voter-approved girls' sports protections as GOP lawmaker vows fight",
+          "url": "https://www.foxnews.com/culture/colorado-dems-eye-changes-voter-approved-girls-sports-protections-gop-lawmaker-vows-fight"
         },
         {
-          "title": "DOJ recovers $8B, charges more than 800 suspects in largest anti-scam surge in history",
-          "url": "https://www.foxnews.com/politics/doj-recovers-8b-charges-more-than-800-suspects-largest-anti-scam-surge-history"
+          "title": "5 of the best food gift baskets for the holidays, from sweet treats to savory favorites",
+          "url": "https://www.foxnews.com/food-drink/5-best-food-gift-baskets-holidays-sweet-treats-savory-favorites"
         },
         {
-          "title": "Apple tightens Mac security as AI agents seek your files",
-          "url": "https://www.foxnews.com/tech/apple-tightens-mac-security-ai-agents-seek-your-files"
+          "title": "Yemeni military official brands Iran Houthis’ ‘godfather,’ says Tehran is directing war",
+          "url": "https://www.foxnews.com/world/yemeni-military-official-brands-iran-houthis-godfather-says-tehran-directing-war"
         }
       ]
     },
@@ -78,16 +78,16 @@
       "site": "https://www.dw.com/en",
       "headlines": [
         {
-          "title": "Ukraine: Zelenskyy and Hungary's Magyar meet amid thaw in ties",
-          "url": "https://www.dw.com/en/ukraine-zelenskyy-and-hungary-s-magyar-meet-amid-thaw-in-ties/a-80036546"
+          "title": "Ukraine: Poland to set up no-fly zone near Ukraine border, urges others to follow after Russian airspace incursions",
+          "url": "https://www.dw.com/en/ukraine-poland-to-set-up-no-fly-zone-near-ukraine-border-urges-others-to-follow-after-russian-airspace-incursions/live-80047122"
         },
         {
-          "title": "Ukraine's bid for NATO membership and more air defense remain controversial",
-          "url": "https://www.dw.com/en/ukraine-s-bid-for-nato-membership-and-more-air-defense-remain-controversial/a-80029852"
+          "title": "US plans new tariffs on EU, China and 12 others",
+          "url": "https://www.dw.com/en/us-plans-new-tariffs-on-eu-china-and-12-others/a-80050872"
         },
         {
-          "title": "HIV infections could rise amid aid cuts, UN warns",
-          "url": "https://www.dw.com/en/hiv-infections-could-rise-amid-aid-cuts-un-warns/a-80036263"
+          "title": "German firms eye Africa as global trade shocks hit traditional markets",
+          "url": "https://www.dw.com/en/german-firms-eye-africa-as-global-trade-shocks-hit-traditional-markets/a-80047671"
         }
       ]
     }
@@ -98,16 +98,16 @@
       "site": "https://tass.com",
       "headlines": [
         {
-          "title": "Ukrainian strikes on Russia in past week leave 65 civilians dead — diplomat",
-          "url": "https://tass.com/politics/2224179"
+          "title": "AfD co-leader says no peace in Europe without working with US, Russia",
+          "url": "https://tass.com/world/2224785"
         },
         {
-          "title": "Kiev produces, uses prohibited mines in breach of its commitments — organization",
-          "url": "https://tass.com/world/2224175"
+          "title": "German MP describes Chancellor Merz as 'emperor with no clothes'",
+          "url": "https://tass.com/world/2224779"
         },
         {
-          "title": "Italian deputy prime minister calls EU sanctions against Russia illogical",
-          "url": "https://tass.com/world/2224171"
+          "title": "Chinese MFA describes US attempt to impose new tariffs as political manipulation",
+          "url": "https://tass.com/world/2224777"
         }
       ],
       "country": "Russia"
@@ -117,16 +117,16 @@
       "site": "https://www.rt.com",
       "headlines": [
         {
-          "title": "Pakistani pilot set to become first foreigner at Chinese space station",
-          "url": "https://rt-english.com/news/649305-pakistani-pilot-china-tiangong/"
+          "title": "Can the EU defend democracy by silencing dissent?",
+          "url": "https://rt-english.com/news/649351-eu-democracy-santions-dissent/"
         },
         {
-          "title": "Serbia’s Vucic reports death threats",
-          "url": "https://rt-english.com/news/649302-serbia-vucic-reports-death-threats/"
+          "title": "Hungarian PM rules out bankrolling Ukraine",
+          "url": "https://rt-english.com/news/649344-hungary-magyar-zelensky-funding/"
         },
         {
-          "title": "Israeli military suicides reach 16-year high – Haaretz",
-          "url": "https://rt-english.com/news/649295-israel-idf-suicide-gaza/"
+          "title": "Content control: USAID docs expose Biden admin’s grip on Ukraine coverage",
+          "url": "https://rt-english.com/news/649353-usaid-ukraine-conflict-narrative/"
         }
       ],
       "country": "Russia"
@@ -136,16 +136,16 @@
       "site": "https://www.presstv.co.uk",
       "headlines": [
         {
-          "title": "North Khorasan: land of opportunities",
-          "url": "https://www.presstv.co.uk/Detail/2026/11/24/781480/north-khorasan-land-of-opportunity"
+          "title": "Trump's war on Iran comes home to haunt Republicans",
+          "url": "https://www.presstv.co.uk/Detail/2026/11/25/781569/iran-the-war-that-broke-the-gop"
         },
         {
-          "title": "Hezbollah: Iranian stance a key factor of strength in Lebanon’s hands",
-          "url": "https://www.presstv.co.uk/Detail/2026/11/24/781473/hezbollah-iranian-stance-has-turned-into-key-factor-of-strength-in-lebanons-hands"
+          "title": "Persian translation of al-Baladhuri’s landmark historical work unveiled at University of Tehran",
+          "url": "https://www.presstv.co.uk/Detail/2026/11/25/781561/persian-translation-of-al-baladhuris-landmark-historical-work-unveiled-at-university-of-tehran"
         },
         {
-          "title": "Speaker Ghalibaf: Iran now determines the geography of the battlefield",
-          "url": "https://www.presstv.co.uk/Detail/2026/11/24/781444/ghalibaf-iran-now-determines-the-geography-of-the-battlefield"
+          "title": "Iran thrash Saudi Arabia to book semi-final berth at AFC Beach Soccer Asian Cup 2026",
+          "url": "https://www.presstv.co.uk/Detail/2026/11/25/781558/iran-thrash-saudi-arabia-to-book-semi-final-berth-at-afc-beach-soccer-asian-cup-2026"
         }
       ],
       "country": "Iran"
@@ -155,16 +155,16 @@
       "site": "https://www.cgtn.com",
       "headlines": [
         {
-          "title": "Israeli airstrike kills 3 Palestinians in southern Gaza, medics say",
-          "url": "https://news.cgtn.com/news/2026-11-24/Israeli-airstrike-kills-3-Palestinians-in-southern-Gaza-medics-say-1SkgFcFbE1G/p.html"
+          "title": "Trade disruptions could put food aid for 7.3 million people at risk",
+          "url": "https://news.cgtn.com/news/2026-11-25/Trade-disruptions-could-put-food-aid-for-7-3-million-people-at-risk-1SlTVTPjSUw/p.html"
         },
         {
-          "title": "Xi extends congratulations to UN meeting supporting Palestinians",
-          "url": "https://news.cgtn.com/news/2026-11-24/Xi-extends-congratulations-to-UN-meeting-supporting-Palestinians-1SkabORnRCw/p.html"
+          "title": "Israeli strike in Gaza brings aid worker death toll to 600: UN",
+          "url": "https://news.cgtn.com/news/2026-11-25/Israeli-strike-in-Gaza-brings-aid-worker-death-toll-to-600-UN-1SlQQNjaLHq/p.html"
         },
         {
-          "title": "Pakistani media highlight astronaut's role in Shenzhou-24 mission",
-          "url": "https://news.cgtn.com/news/2026-11-24/Pakistani-media-highlight-astronaut-s-role-in-Shenzhou-24-mission-1SkaVh83Ad2/p.html"
+          "title": "US lawmakers question Trump’s involvement in Nvidia CEO’s return",
+          "url": "https://newsus.cgtn.com/news/2026-11-25/US-lawmakers-question-Trump-s-involvement-in-Nvidia-CEO-s-return-1SlFdrhwxlS/p.html"
         }
       ],
       "country": "China"
@@ -174,16 +174,16 @@
       "site": "https://www.thehindu.com",
       "headlines": [
         {
-          "title": "Thirupparankundram 'deepathoon' row LIVE: Karthigai Deepam lit at traditional spot despite Supreme Court order",
-          "url": "https://www.thehindu.com/news/national/tamil-nadu/karthigai-deepam-deepathoon-lighting-2026-live-updates-november-24-tamil-nadu/article71737406.ece"
+          "title": "Kalady university row: Govt. has no role in university’s decision to file appeal against court decision, says Keralam CM V.D. Satheesan",
+          "url": "https://www.thehindu.com/news/national/kerala/kalady-university-row-govt-has-no-role-in-universitys-decision-to-file-appeal-against-court-decision-says-keralam-cm-vd-satheesan/article71742715.ece"
         },
         {
-          "title": "Arrangements in place for Mission Chakkakompan",
-          "url": "https://www.thehindu.com/news/national/kerala/arrangements-in-place-for-mission-chakkakompan/article71739215.ece"
+          "title": "Meaning employment opportunities need of the hour: MLC candidate",
+          "url": "https://www.thehindu.com/news/national/telangana/meaning-employment-opportunities-need-of-the-hour-mlc-candidate/article71742199.ece"
         },
         {
-          "title": "Police detain protesters outside Thirupparankundram temple",
-          "url": "https://www.thehindu.com/news/cities/Madurai/police-detain-protesters-outside-thirupparankundram-temple/article71739470.ece"
+          "title": "Corporation to auction stray cattle; issue circular to owners in Madurai",
+          "url": "https://www.thehindu.com/news/cities/Madurai/corporation-to-auction-stray-cattle-issue-circular-to-owners-in-madurai/article71743213.ece"
         }
       ],
       "country": "India"
@@ -193,16 +193,16 @@
       "site": "https://agenciabrasil.ebc.com.br/en",
       "headlines": [
         {
+          "title": "UN approves Brazil’s proposal for Muslim-friendly tourism",
+          "url": "https://agenciabrasil.ebc.com.br/en/internacional/noticia/2026-11/un-approves-brazils-proposal-muslim-friendly-tourism"
+        },
+        {
+          "title": "Portuguese-speaking Central Banks establish cooperation network",
+          "url": "https://agenciabrasil.ebc.com.br/en/economia/noticia/2026-11/portuguese-speaking-central-banks-establish-cooperation-network"
+        },
+        {
           "title": "Amazon indigenous women share experiences in bioeconomy",
           "url": "https://agenciabrasil.ebc.com.br/en/geral/noticia/2026-11/amazon-indigenous-women-share-experiences-bioeconomy"
-        },
-        {
-          "title": "Brazilian lower house approves fiscal adjustment without changes",
-          "url": "https://agenciabrasil.ebc.com.br/en/politica/noticia/2026-11/brazilian-lower-house-approves-fiscal-adjustment-without-changes"
-        },
-        {
-          "title": "Intelligence Agency reports 31 criminal organizations in Brazil",
-          "url": "https://agenciabrasil.ebc.com.br/en/justica/noticia/2026-11/intelligence-agency-reports-31-criminal-organizations-brazil"
         }
       ],
       "country": "Brazil"
@@ -213,11 +213,11 @@
       "name": "Judging Freedom",
       "slug": "judging-freedom",
       "video": {
-        "id": "pIeS8qh7FAk",
-        "title": "Aaron Maté : NATO’s Brazen Attacks on Russia",
-        "url": "https://www.youtube.com/watch?v=pIeS8qh7FAk",
-        "date": "2026-11-24T16:29:13+00:00",
-        "description": "Aaron Maté  :  NATO’s Brazen Attacks on Russia"
+        "id": "7CxyEyQWUec",
+        "title": "When Will Iran Decisively Retaliate? | Prof. Mohammad Marandi",
+        "url": "https://www.youtube.com/watch?v=7CxyEyQWUec",
+        "date": "2026-11-25T14:28:14+00:00",
+        "description": "When Will Iran Decisively Retaliate?  |  Prof. Mohammad Marandi"
       }
     },
     {
@@ -235,22 +235,22 @@
       "name": "Glenn Diesen",
       "slug": "glenn-diesen",
       "video": {
-        "id": "-M_5Okl3bPs",
-        "title": "Jeffrey Sachs & Vladimir Putin Discuss New European Security Order",
-        "url": "https://www.youtube.com/watch?v=-M_5Okl3bPs",
-        "date": "2026-11-24T13:00:12+00:00",
-        "description": "Professor Jeffrey Sachs is a world-renowned economics professor, bestselling author, innovative educator, and global leader in sustainable development. Follow Jeffrey Sachs' YouTube channel: https://www.youtube.com/@JeffreyDSachsOfficial \n\nFollow Prof. Glenn Diesen: \nSubstack: https://glenndiesen.substack.com/ \nX/Twitter: https://x.com/Glenn_Diesen\nPatreon: https://www.patreon.com/glenndiesen \n\nSupport the research by Prof. Glenn Diesen: \nPayPal: https://www.paypal.com/paypalme/glenndiesen\nBuy me a Coffee: buymeacoffee.com/gdieseng\nGo Fund Me: https://gofund.me/09ea012f\nBuy Diesen merchandise: https://diesen-shop.fourthwall.com/en-nok\n\nBooks by Prof. Glenn Diesen: \nhttps://www.amazon.com/stores/author/B09FPQ4MDL\n\n00:00 The Evolution of Security Architecture\n02:01 The Rise of Multipolarity\n10:00 The United States and Global Hegemony\n19:46 The Future of Great Power Relations\n29:57 Rethinking Security in a New World Order"
+        "id": "wiTIa6j78LI",
+        "title": "Daniel Bell: China's Ancient Political Ideas Shape the New World Order",
+        "url": "https://www.youtube.com/watch?v=wiTIa6j78LI",
+        "date": "2026-11-25T13:00:18+00:00",
+        "description": "Daniel A. Bell is a Professor, Chair of Political Theory with the Faculty of Law at the University of Hong Kong. Prof. Bell discusses ancient Chinese political philosophy and how it shapes the new world order.\n\n“Why Ancient Chinese Political Thought Matters”: https://www.amazon.com/clp/0691279802?lv=shuf&channelId=500\n\nFollow Prof. Glenn Diesen: \nSubstack: https://glenndiesen.substack.com/ \nX/Twitter: https://x.com/Glenn_Diesen\nPatreon: https://www.patreon.com/glenndiesen \n\nSupport the research by Prof. Glenn Diesen: \nPayPal: https://www.paypal.com/paypalme/glenndiesen\nBuy me a Coffee: buymeacoffee.com/gdieseng\nGo Fund Me: https://gofund.me/09ea012f\nBuy Diesen merchandise: https://diesen-shop.fourthwall.com/en-nok\n\nBooks by Prof. Glenn Diesen: \nhttps://www.amazon.com/stores/author/B09FPQ4MDL\n\n00:00 The Importance of Ancient Chinese Political Thought\n03:49 Contrasting Chinese and Western Political Philosophies\n08:01 Unity and Political Order in Chinese Thought\n12:09 Harmony vs. Freedom in Chinese Society\n15:44 Political Legitimacy and Meritocracy in China\n22:33 Plato's Critique of Democracy and Meritocracy\n24:34 Corruption in Political Meritocracy\n26:42 China's Rising Influence on Global Order\n27:14 Great Powers and Global Responsibilities\n29:05 China's Approach to Universalism\n30:21 Managing Rivalries Among Great Powers\n32:42 Engagement and Cooperation in International Relations\n35:21 Continuity and Change in China's Political Landscape\n39:09 Optimistic Scenarios for China's Future\n41:55 Combining Marxism with Cultural Traditions"
       }
     },
     {
       "name": "Chris Hedges",
       "slug": "chris-hedges",
       "video": {
-        "id": "itrifY2Tx3o",
-        "title": "How the Definition of 'Terrorism' Has Been Weaponized by the Deep State for Decades(w/ Dan Boguslaw)",
-        "url": "https://www.youtube.com/watch?v=itrifY2Tx3o",
-        "date": "2026-11-21T01:16:24+00:00",
-        "description": "Watch the full episode: https://www.youtube.com/watch?v=Ww1hPklXb7A&t=1s\n\nSupport my independent journalism at Substack: https://chrishedges.substack.com/\n\nFollow The Chris Hedges Report on social media: https://linktr.ee/chrishedges"
+        "id": "XHN6oAMFMy4",
+        "title": "How We Prevent Co-Optation",
+        "url": "https://www.youtube.com/watch?v=XHN6oAMFMy4",
+        "date": "2026-11-24T01:32:38+00:00",
+        "description": ""
       }
     },
     {
@@ -279,11 +279,11 @@
       "name": "George Galloway",
       "slug": "george-galloway",
       "video": {
-        "id": "_fxJDz_-4wk",
-        "title": "From jackboots to brogues",
-        "url": "https://www.youtube.com/watch?v=_fxJDz_-4wk",
-        "date": "2026-11-24T15:00:25+00:00",
-        "description": "The number of N**is who had big careers in Europe and the US after WW11 is truly astonishing. Including Werner Von Braun who killed people in London with his V1 and V2 rockets\n\nWatch #MOATS Live every Sunday & Wednesday 7PM London Time\n\nFollow @moatstv 606 #Waldheim #Nato #VonBraun"
+        "id": "fqjXQd9JpWY",
+        "title": "The COP31 cop out",
+        "url": "https://www.youtube.com/watch?v=fqjXQd9JpWY",
+        "date": "2026-11-25T14:00:40+00:00",
+        "description": "The climate talks in Turkey broke up in disarray with no agreement on curbing fossil fuels, or commitment by countries to reach thirty-five per cent by renewables by 2035. Gayatri explains\n\nWatch #MOATS Live every Sunday & Wednesday 7PM London Time \n\nFollow @moatstv 606 Insta: @GayatriGalloway #COP31 #fossilfuels #renewables #China #Turkey"
       }
     }
   ],
