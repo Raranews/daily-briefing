@@ -1,21 +1,21 @@
 {
-  "fetched": "2026-11-25T15:06:28+00:00",
+  "fetched": "2026-11-26T15:03:38+00:00",
   "western": [
     {
       "name": "BBC News",
       "site": "https://www.bbc.com/news",
       "headlines": [
         {
-          "title": "Energy bills to rise by 26% from January after gas prices surge",
-          "url": "https://www.bbc.co.uk/news/articles/cm20qnq33e90o"
+          "title": "UK net migration at lowest level since 1997 as asylum claims also fall",
+          "url": "https://www.bbc.co.uk/news/articles/cq36gj12n0l3o"
         },
         {
-          "title": "Two men charged with trying to steal cufflinks and clock from Royal home",
-          "url": "https://www.bbc.co.uk/news/articles/cx5y1987dyp6o"
+          "title": "German boat dealer suspected of supplying Channel smuggling gangs, BBC finds",
+          "url": "https://www.bbc.co.uk/news/articles/cqlymky8kpzjo"
         },
         {
-          "title": "Raheem Sterling given suspended jail sentence for dangerous driving and nitrous oxide possession",
-          "url": "https://www.bbc.co.uk/news/articles/cv8e04ll9dd3o"
+          "title": "UK reservists contacted as 'threat environment' rises, Streeting says",
+          "url": "https://www.bbc.co.uk/news/articles/cvrlgznd9z4po"
         }
       ]
     },
@@ -24,16 +24,16 @@
       "site": "https://www.cnn.com",
       "headlines": [
         {
-          "title": "Tech stock sell-off deepens as AI fears outweigh Huang’s Nvidia return",
-          "url": "https://www.cnn.com/2026/11/25/business/ai-sell-off-despite-huang-nvidia-return"
+          "title": "Discovery of an Egyptian structure hidden for 2,600 years offers clues to ancient engineering",
+          "url": "https://www.cnn.com/2026/11/26/science/egypt-structure-buto-ancient-building-techniques"
         },
         {
-          "title": "US economy grew faster last quarter than initially reported",
-          "url": "https://www.cnn.com/2026/11/25/economy/us-pce-inflation-spending-gdp"
+          "title": "Israel intensifies assassinations in Gaza as US urges Netanyahu to proceed with ceasefire plan",
+          "url": "https://www.cnn.com/2026/11/26/middleeast/israel-gaza-assassinations-intl"
         },
         {
-          "title": "Trump targets China, EU in new round of tariffs",
-          "url": "https://www.cnn.com/2026/11/25/economy/trump-new-tariffs"
+          "title": "Iranian attack on Kuwait kills two Italians, Italy’s foreign minister says",
+          "url": "https://www.cnn.com/2026/11/26/middleeast/italians-killed-iranian-attack-kuwait-intl"
         }
       ]
     },
@@ -42,16 +42,16 @@
       "site": "https://www.theguardian.com/international",
       "headlines": [
         {
-          "title": "High prices force many across the US to scale back for Thanksgiving: ‘We can’t afford the food’",
-          "url": "https://www.theguardian.com/us-news/2026/nov/25/thanksgiving-food-costs-prices"
+          "title": "Spanish opposition criticised for AI video of Pedro Sánchez in Morocco shirt",
+          "url": "https://www.theguardian.com/world/2026/nov/26/spain-peoples-party-ai-video-pedro-sanchez-morocco-shirt"
         },
         {
-          "title": "Heavy rain and high winds on east coast threaten to disrupt Thanksgiving plans",
-          "url": "https://www.theguardian.com/us-news/2026/nov/25/heavy-rain-high-winds-thanksgiving-east-coast"
+          "title": "Beau Lamarre-Condon used his service weapon to murder two men. Did NSW police recruiters miss any red flags?",
+          "url": "https://www.theguardian.com/australia-news/2026/nov/27/beau-lamarre-condon-service-weapon-murder-police-recruiters-ntwnfb"
         },
         {
-          "title": "Amazon to start selling cars in the UK next year",
-          "url": "https://www.theguardian.com/uk-news/2026/nov/25/amazon-motors-into-uk-car-market"
+          "title": "Donations to One Nation from two Gina Rinehart associates to be probed by electoral authorities",
+          "url": "https://www.theguardian.com/australia-news/2026/nov/27/one-nation-pauline-hanson-gina-rinehart-aec-donations-ntwnfb"
         }
       ]
     },
@@ -60,16 +60,16 @@
       "site": "https://www.foxnews.com",
       "headlines": [
         {
-          "title": "Colorado Dems eye changes to voter-approved girls' sports protections as GOP lawmaker vows fight",
-          "url": "https://www.foxnews.com/culture/colorado-dems-eye-changes-voter-approved-girls-sports-protections-gop-lawmaker-vows-fight"
+          "title": "Thanksgiving on Ozempic: Clever tricks to survive the feast without offending the host",
+          "url": "https://www.foxnews.com/health/thanksgiving-ozempic-clever-tricks-survive-feast-without-offending-host"
         },
         {
-          "title": "5 of the best food gift baskets for the holidays, from sweet treats to savory favorites",
-          "url": "https://www.foxnews.com/food-drink/5-best-food-gift-baskets-holidays-sweet-treats-savory-favorites"
+          "title": "Shopping with Friends: 8 Black Friday deals to shop now",
+          "url": "https://www.foxnews.com/deals/shopping-with-friends-black-friday-deals"
         },
         {
-          "title": "Yemeni military official brands Iran Houthis’ ‘godfather,’ says Tehran is directing war",
-          "url": "https://www.foxnews.com/world/yemeni-military-official-brands-iran-houthis-godfather-says-tehran-directing-war"
+          "title": "Norse Atlantic airline suspends all flights, on brink of bankruptcy amid rising fuel costs",
+          "url": "https://www.foxnews.com/world/norse-atlantic-airlines-suspends-all-flights-brink-bankruptcy-amid-rising-fuel-costs"
         }
       ]
     },
@@ -78,16 +78,16 @@
       "site": "https://www.dw.com/en",
       "headlines": [
         {
-          "title": "Ukraine: Poland to set up no-fly zone near Ukraine border, urges others to follow after Russian airspace incursions",
-          "url": "https://www.dw.com/en/ukraine-poland-to-set-up-no-fly-zone-near-ukraine-border-urges-others-to-follow-after-russian-airspace-incursions/live-80047122"
+          "title": "Freigang banned — Germany star to miss 2027 World Cup",
+          "url": "https://www.dw.com/en/freigang-banned-germany-star-to-miss-2027-world-cup/a-80063930"
         },
         {
-          "title": "US plans new tariffs on EU, China and 12 others",
-          "url": "https://www.dw.com/en/us-plans-new-tariffs-on-eu-china-and-12-others/a-80050872"
+          "title": "FIFA says a cyberattack against it targeted a 'limited set of personal and business information'",
+          "url": "https://www.dw.com/en/fifa-says-a-cyberattack-against-it-targeted-a-limited-set-of-personal-and-business-information/a-80062660"
         },
         {
-          "title": "German firms eye Africa as global trade shocks hit traditional markets",
-          "url": "https://www.dw.com/en/german-firms-eye-africa-as-global-trade-shocks-hit-traditional-markets/a-80047671"
+          "title": "EU-Indonesia trade deal opens new markets, but challenges remain",
+          "url": "https://www.dw.com/en/eu-indonesia-trade-deal-opens-new-markets-but-challenges-remain/a-80059568"
         }
       ]
     }
@@ -98,16 +98,16 @@
       "site": "https://tass.com",
       "headlines": [
         {
-          "title": "AfD co-leader says no peace in Europe without working with US, Russia",
-          "url": "https://tass.com/world/2224785"
+          "title": "EU plans to spend €100 billion over seven years servicing loans for Kiev — source",
+          "url": "https://tass.com/economy/2225431"
         },
         {
-          "title": "German MP describes Chancellor Merz as 'emperor with no clothes'",
-          "url": "https://tass.com/world/2224779"
+          "title": "Russia ready to share expertise on protecting oil, gas facilities with Bahrain",
+          "url": "https://tass.com/politics/2225429"
         },
         {
-          "title": "Chinese MFA describes US attempt to impose new tariffs as political manipulation",
-          "url": "https://tass.com/world/2224777"
+          "title": "Bank of Russia lowers dollar exchange rate to 82.13 rubles for November 27",
+          "url": "https://tass.com/economy/2225423"
         }
       ],
       "country": "Russia"
@@ -117,16 +117,16 @@
       "site": "https://www.rt.com",
       "headlines": [
         {
-          "title": "Can the EU defend democracy by silencing dissent?",
-          "url": "https://rt-english.com/news/649351-eu-democracy-santions-dissent/"
+          "title": "Putin is ‘a grand-master of politics’ – Kushner",
+          "url": "https://rt-english.com/news/649384-kushner-putin-dmitriev-ukraine/"
         },
         {
-          "title": "Hungarian PM rules out bankrolling Ukraine",
-          "url": "https://rt-english.com/news/649344-hungary-magyar-zelensky-funding/"
+          "title": "Macron issues ultimatum to EU",
+          "url": "https://rt-english.com/news/649378-macron-france-eu-budget/"
         },
         {
-          "title": "Content control: USAID docs expose Biden admin’s grip on Ukraine coverage",
-          "url": "https://rt-english.com/news/649353-usaid-ukraine-conflict-narrative/"
+          "title": "Five killed in Ukrainian drone strike – Russian governor",
+          "url": "https://rt-english.com/news/649372-zaporozhye-drone-strike-ukraine/"
         }
       ],
       "country": "Russia"
@@ -136,16 +136,16 @@
       "site": "https://www.presstv.co.uk",
       "headlines": [
         {
-          "title": "Trump's war on Iran comes home to haunt Republicans",
-          "url": "https://www.presstv.co.uk/Detail/2026/11/25/781569/iran-the-war-that-broke-the-gop"
+          "title": "Iran wary as South Korea assures it will not join US war of aggression",
+          "url": "https://www.presstv.co.uk/Detail/2026/11/26/781660/araghchi-warns-against-foreign-military-presence-as-south-korea-rules-out-joining-war"
         },
         {
-          "title": "Persian translation of al-Baladhuri’s landmark historical work unveiled at University of Tehran",
-          "url": "https://www.presstv.co.uk/Detail/2026/11/25/781561/persian-translation-of-al-baladhuris-landmark-historical-work-unveiled-at-university-of-tehran"
+          "title": "Iran's $60 billion stake in BRICS' $1.2 trillion trade signals defeat of US economic terrorism",
+          "url": "https://www.presstv.co.uk/Detail/2026/11/26/781658/irans-60-billion-stake-in-brics-1-2-trillion-trade-signals-defeat-of-us-economic-terrorism"
         },
         {
-          "title": "Iran thrash Saudi Arabia to book semi-final berth at AFC Beach Soccer Asian Cup 2026",
-          "url": "https://www.presstv.co.uk/Detail/2026/11/25/781558/iran-thrash-saudi-arabia-to-book-semi-final-berth-at-afc-beach-soccer-asian-cup-2026"
+          "title": "Iran’s top banker says interventions to stabilize currency market will continue 'with strength'",
+          "url": "https://www.presstv.co.uk/Detail/2026/11/26/781655/irans-top-banker-says-interventions-to-stabilize-currency-market-will-continue-with-strength"
         }
       ],
       "country": "Iran"
@@ -155,16 +155,16 @@
       "site": "https://www.cgtn.com",
       "headlines": [
         {
-          "title": "Trade disruptions could put food aid for 7.3 million people at risk",
-          "url": "https://news.cgtn.com/news/2026-11-25/Trade-disruptions-could-put-food-aid-for-7-3-million-people-at-risk-1SlTVTPjSUw/p.html"
+          "title": "China urges Japan to destroy abandoned chemical weapons",
+          "url": "https://news.cgtn.com/news/2026-11-26/China-urges-Japan-to-destroy-abandoned-chemical-weapons-1SnqFQ4FRmw/p.html"
         },
         {
-          "title": "Israeli strike in Gaza brings aid worker death toll to 600: UN",
-          "url": "https://news.cgtn.com/news/2026-11-25/Israeli-strike-in-Gaza-brings-aid-worker-death-toll-to-600-UN-1SlQQNjaLHq/p.html"
+          "title": "Guterres condemns a future with 'killer robots'",
+          "url": "https://newsus.cgtn.com/news/2026-11-26/Guterres-condemns-a-future-with-killer-robots--1Sn9I7Y6Zsk/p.html"
         },
         {
-          "title": "US lawmakers question Trump’s involvement in Nvidia CEO’s return",
-          "url": "https://newsus.cgtn.com/news/2026-11-25/US-lawmakers-question-Trump-s-involvement-in-Nvidia-CEO-s-return-1SlFdrhwxlS/p.html"
+          "title": "Iowa residents react to Army detonation of bomb making chemicals",
+          "url": "https://newsus.cgtn.com/news/2026-11-26/Iowa-residents-react-to-Army-detonation-of-bomb-making-chemicals-1Sn7Ko9SNi0/p.html"
         }
       ],
       "country": "China"
@@ -174,16 +174,16 @@
       "site": "https://www.thehindu.com",
       "headlines": [
         {
-          "title": "Kalady university row: Govt. has no role in university’s decision to file appeal against court decision, says Keralam CM V.D. Satheesan",
-          "url": "https://www.thehindu.com/news/national/kerala/kalady-university-row-govt-has-no-role-in-universitys-decision-to-file-appeal-against-court-decision-says-keralam-cm-vd-satheesan/article71742715.ece"
+          "title": "Rushikonda project substantially altered hill’s natural topography, Central expert panel tells Andhra HC",
+          "url": "https://www.thehindu.com/news/national/andhra-pradesh/rushikonda-resorts-caused-substantial-alteration-of-natural-hill-topography-expert-committee-informs-ap-high-court/article71745656.ece"
         },
         {
-          "title": "Meaning employment opportunities need of the hour: MLC candidate",
-          "url": "https://www.thehindu.com/news/national/telangana/meaning-employment-opportunities-need-of-the-hour-mlc-candidate/article71742199.ece"
+          "title": "Prototype of Chandrayaan-5/LUPEX rover unveiled",
+          "url": "https://www.thehindu.com/news/national/karnataka/prototype-of-chandrayaan-5lupex-rover-unveiled/article71746762.ece"
         },
         {
-          "title": "Corporation to auction stray cattle; issue circular to owners in Madurai",
-          "url": "https://www.thehindu.com/news/cities/Madurai/corporation-to-auction-stray-cattle-issue-circular-to-owners-in-madurai/article71743213.ece"
+          "title": "Parameshwara urges Modi to replicate Karnataka’s Constitution Day model",
+          "url": "https://www.thehindu.com/news/national/karnataka/parameshwara-urges-modi-to-replicate-karnatakas-constitution-day-model/article71747371.ece"
         }
       ],
       "country": "India"
@@ -193,16 +193,16 @@
       "site": "https://agenciabrasil.ebc.com.br/en",
       "headlines": [
         {
-          "title": "UN approves Brazil’s proposal for Muslim-friendly tourism",
-          "url": "https://agenciabrasil.ebc.com.br/en/internacional/noticia/2026-11/un-approves-brazils-proposal-muslim-friendly-tourism"
+          "title": "Business leaders to participate in US-Brazil consultation on tariffs",
+          "url": "https://agenciabrasil.ebc.com.br/en/economia/noticia/2026-11/business-leaders-participate-us-brazil-consultation-tariffs"
         },
         {
-          "title": "Portuguese-speaking Central Banks establish cooperation network",
-          "url": "https://agenciabrasil.ebc.com.br/en/economia/noticia/2026-11/portuguese-speaking-central-banks-establish-cooperation-network"
+          "title": "Brazil criticizes possible new US tariffs, says it will not back down",
+          "url": "https://agenciabrasil.ebc.com.br/en/economia/noticia/2026-11/brazil-criticizes-possible-new-us-tariffs-says-it-will-not-back-down"
         },
         {
-          "title": "Amazon indigenous women share experiences in bioeconomy",
-          "url": "https://agenciabrasil.ebc.com.br/en/geral/noticia/2026-11/amazon-indigenous-women-share-experiences-bioeconomy"
+          "title": "Extinct in the wild, Spix’s macaw chick hatches at São Paulo zoo",
+          "url": "https://agenciabrasil.ebc.com.br/en/meio-ambiente/noticia/2026-11/extinct-wild-spixs-macaw-chick-hatches-sao-paulo-zoo"
         }
       ],
       "country": "Brazil"
@@ -213,11 +213,11 @@
       "name": "Judging Freedom",
       "slug": "judging-freedom",
       "video": {
-        "id": "7CxyEyQWUec",
-        "title": "When Will Iran Decisively Retaliate? | Prof. Mohammad Marandi",
-        "url": "https://www.youtube.com/watch?v=7CxyEyQWUec",
-        "date": "2026-11-25T14:28:14+00:00",
-        "description": "When Will Iran Decisively Retaliate?  |  Prof. Mohammad Marandi"
+        "id": "dviSwLLby0Q",
+        "title": "Trump's Victory vs. The System: What They Don't Want You to Know",
+        "url": "https://www.youtube.com/watch?v=dviSwLLby0Q",
+        "date": "2026-11-26T13:00:04+00:00",
+        "description": "Books from Judge Napolitano:\n\nFreedom’s Anchor: An Introduction to Natural Law Jurisprudence in American Constitutional History\nhttps://amzn.to/4kDJa6L\n\nLies the Government Told You: Myth, Power, and Deception in American History\nhttps://amzn.to/4kLdexv\n\nIt Is Dangerous to Be Right When the Government Is Wrong: The Case for Personal Freedom \nhttps://amzn.to/43DcBPG\n\nThe Constitution in Exile: How the Federal Government Has Seized Power by Rewriting the Supreme Law of the Land\nhttps://amzn.to/3ZGxGaz\n\nA Nation of Sheep\nhttps://amzn.to/4jt2jqV\n\nThe Freedom Answer Book: How the Government Is Taking Away Your Constitutional Freedoms (Answer Book Series)\nhttps://amzn.to/4dCGWlT\n\nNapolitano 3 in 1: Constitutional Chaos, The Constitution in Exile, and A Nation of Sheep\nhttps://amzn.to/43HDnq3\n\nDred Scott's Revenge: A Legal History of Race and Freedom in America\nhttps://amzn.to/3SVP5Iq\n\nSuicide Pact: The Radical Expansion of Presidential Powers and the Lethal Threat to American Liberty\nhttps://amzn.to/4jiGY3r\n\n\nJoin this channel to get access to perks:\nhttps://www.youtube.com/channel/UCDkEYb-TXJVWLvOokshtlsw/join"
       }
     },
     {
@@ -235,55 +235,55 @@
       "name": "Glenn Diesen",
       "slug": "glenn-diesen",
       "video": {
-        "id": "wiTIa6j78LI",
-        "title": "Daniel Bell: China's Ancient Political Ideas Shape the New World Order",
-        "url": "https://www.youtube.com/watch?v=wiTIa6j78LI",
-        "date": "2026-11-25T13:00:18+00:00",
-        "description": "Daniel A. Bell is a Professor, Chair of Political Theory with the Faculty of Law at the University of Hong Kong. Prof. Bell discusses ancient Chinese political philosophy and how it shapes the new world order.\n\n“Why Ancient Chinese Political Thought Matters”: https://www.amazon.com/clp/0691279802?lv=shuf&channelId=500\n\nFollow Prof. Glenn Diesen: \nSubstack: https://glenndiesen.substack.com/ \nX/Twitter: https://x.com/Glenn_Diesen\nPatreon: https://www.patreon.com/glenndiesen \n\nSupport the research by Prof. Glenn Diesen: \nPayPal: https://www.paypal.com/paypalme/glenndiesen\nBuy me a Coffee: buymeacoffee.com/gdieseng\nGo Fund Me: https://gofund.me/09ea012f\nBuy Diesen merchandise: https://diesen-shop.fourthwall.com/en-nok\n\nBooks by Prof. Glenn Diesen: \nhttps://www.amazon.com/stores/author/B09FPQ4MDL\n\n00:00 The Importance of Ancient Chinese Political Thought\n03:49 Contrasting Chinese and Western Political Philosophies\n08:01 Unity and Political Order in Chinese Thought\n12:09 Harmony vs. Freedom in Chinese Society\n15:44 Political Legitimacy and Meritocracy in China\n22:33 Plato's Critique of Democracy and Meritocracy\n24:34 Corruption in Political Meritocracy\n26:42 China's Rising Influence on Global Order\n27:14 Great Powers and Global Responsibilities\n29:05 China's Approach to Universalism\n30:21 Managing Rivalries Among Great Powers\n32:42 Engagement and Cooperation in International Relations\n35:21 Continuity and Change in China's Political Landscape\n39:09 Optimistic Scenarios for China's Future\n41:55 Combining Marxism with Cultural Traditions"
+        "id": "pAKi4Cn6uq0",
+        "title": "Steve Jermy: The West's Failure to Adapt to Multipolar Reality",
+        "url": "https://www.youtube.com/watch?v=pAKi4Cn6uq0",
+        "date": "2026-11-26T12:50:06+00:00",
+        "description": "Royal Navy Commodore Steve Jermy commanded warships in the 5th Destroyer Squadron and Britain's Fleet Air Arm. He served in the Falklands War and in the Adriatic for the Bosnian and Kosovo campaigns. Then retired after an operational tour, in 2007, as Strategy Director in the British Embassy in Afghanistan. He is the author of the book: \"Strategy for Action: Using Force Wisely in the 21st Century\".\n\nFollow Prof. Glenn Diesen: \nSubstack: https://glenndiesen.substack.com/ \nX/Twitter: https://x.com/Glenn_Diesen\nPatreon: https://www.patreon.com/glenndiesen \n\nSupport the research by Prof. Glenn Diesen: \nPayPal: https://www.paypal.com/paypalme/glenndiesen\nBuy me a Coffee: buymeacoffee.com/gdieseng\nGo Fund Me: https://gofund.me/09ea012f\nBuy Diesen merchandise: https://diesen-shop.fourthwall.com/en-nok\n\nBooks by Prof. Glenn Diesen: \nhttps://www.amazon.com/stores/author/B09FPQ4MDL\n\n00:00 Introduction to Geopolitical Dynamics\n02:56 Understanding the Multipolar World\n06:45 The Shift in Military and Economic Power\n09:57 The Role of Energy in Global Economics\n13:39 Cost of Living Crisis and Energy Dependency\n18:06 Preparing for Future Economic Challenges\n24:35 Shifting Global Power Dynamics\n25:33 Navigating a Changing World\n29:30 The Role of Economics in Global Conflicts\n36:28 The Dangers of Self-Deception\n37:37 Potential Outcomes of the Ukraine War\n45:22 The Risk of Escalation and Nuclear Conflict"
       }
     },
     {
       "name": "Chris Hedges",
       "slug": "chris-hedges",
       "video": {
-        "id": "XHN6oAMFMy4",
-        "title": "How We Prevent Co-Optation",
-        "url": "https://www.youtube.com/watch?v=XHN6oAMFMy4",
-        "date": "2026-11-24T01:32:38+00:00",
-        "description": ""
+        "id": "cD1elDKvJHY",
+        "title": "Criminalizing Support for Palestine (w/ Fergie Chambers) | TCHR",
+        "url": "https://www.youtube.com/watch?v=cD1elDKvJHY",
+        "date": "2026-11-25T23:10:48+00:00",
+        "description": "Fergie Chambers speaks out about being targeted by the United States for supporting humanitarian organizations in Palestine and the high cost of fulfilling our obligation to oppose genocide.\n\nSupport my independent journalism at Substack: https://chrishedges.substack.com/\n\nFollow The Chris Hedges Report on social media: https://linktr.ee/chrishedges"
       }
     },
     {
       "name": "The Grayzone",
       "slug": "the-grayzone",
       "video": {
-        "id": "slmye_Y3Nyc",
-        "title": "'I'll never forget these scenes'- Tehran Fire Dept spox on rescuing civilians under US-Israeli bombs",
-        "url": "https://www.youtube.com/watch?v=slmye_Y3Nyc",
-        "date": "2026-11-23T17:33:47+00:00",
-        "description": "Jalal Maleki, the spokesman for the Tehran Fire Department, joins The Grayzone's Max Blumenthal to describe the harrowing scenes he witnessed during the war imposed on Iran this year by the US-Israeli coalition. Maleki recalls the shock of retrieving children from under the rubble of large residential buildings destroyed by the airstrikes, and details the US-Israeli pattern of targeting civilian neighborhoods with no regard for human life.\n\nAs one of the first one the scene after the US-Israeli bombing of the offices of Ayatollah Ali Khamenei, Maleki provides exclusive detail on what he saw there, and how he discovered members of the leader's family. \n\nHe also explains how US sanctions and the ongoing naval blockade have hampered his departments ability to save lives as it prepares for a possible third round of war in the near future.\n\n||| The Grayzone |||\n\nFind more reporting at https://thegrayzone.com\n\nSupport our original journalism at Patreon: https://patreon.com/grayzone\n\nFacebook: https://facebook.com/thegrayzone\nTwitter: https://twitter.com/thegrayzonenews\nInstagram: https://instagram.com/thegrayzonenews\nMinds: https://minds.com/thegrayzone\nMastodon: https://mastodon.social/@thegrayzone\n\n#TheGrayzone"
+        "id": "gk16XmL2y8U",
+        "title": "The Dems who don't want the war to end - Max Blumenthal on Judging Freedom",
+        "url": "https://www.youtube.com/watch?v=gk16XmL2y8U",
+        "date": "2026-11-25T18:38:19+00:00",
+        "description": "||| The Grayzone |||\n\nFind more reporting at https://thegrayzone.com\n\nSupport our original journalism at Patreon: https://patreon.com/grayzone\n\nFacebook: https://facebook.com/thegrayzone\nTwitter: https://twitter.com/thegrayzonenews\nInstagram: https://instagram.com/thegrayzonenews\nMinds: https://minds.com/thegrayzone\nMastodon: https://mastodon.social/@thegrayzone\n\n#TheGrayzone"
       }
     },
     {
       "name": "Tucker Carlson",
       "slug": "tucker-carlson",
       "video": {
-        "id": "H9AxUtUmp-U",
-        "title": "Finance Expert Warns of Cyberattacks & Grid Failure: Buy Gold and Bury It Before AI Deletes the Bank",
-        "url": "https://www.youtube.com/watch?v=H9AxUtUmp-U",
-        "date": "2026-11-23T18:00:06+00:00",
-        "description": "They can hack your bank account but not your bullion. Gold is at its lowest price in more than a year. Luke Gromen on why it can only go way up from here.\n\nLuke Gromen is a financial analyst and macroeconomic researcher with more than 20 years of experience on Wall Street. He founded FFTT, LLC in 2014, an investment research firm focused on global economic trends, financial markets, and the connections between geopolitics and the economy. Previously, he was a founding partner at Cleveland Research Company and a partner at Midwest Research. Learn more here: https://fftt-llc.com/ \n\nPaid partnerships with:\n\nEthos: Protect your family with life insurance from Ethos. Get up to $3 million in coverage in as little as 10 minutes at https://ethos.com/TUCKER\n\nBattalion Metals: Don't wait to move some of your wealth outside the system. https://battalionmetals.com/tucker\n\nDefend: Shop the Black Friday/Cyber Monday sale now at https://defendcellcam.com\n\nAmerican Financing: NMLS 182334, nmlsconsumeraccess.org. Average savings based on borrowers who save over $199.99. Call 800-685-5696 or visit http://www.AmericanFinancing.net/Tucker.\n\n#TuckerCarlson #JensenHuang #NVIDIA #cyberattacks #America #debt #AI #gold #government #Iranwar #China #housingmarket #news #politics #podcast\n\nChapters:\n0:00 Who’s Behind the Cyber Attacks?\n8:58 Why Is the Price of Gold Falling?\n18:28 How High Can Gold Go?\n22:19 What Actually Backs the Dollar?\n28:26 Why Rebuilding America Could Trigger a Debt Spiral\n33:21 Why They Took Out Jensen Huang\n35:55 How America’s Debt Is Now Bigger Than Its Revenue\n44:41 Is AI a Snake Eating Its Own Tail?\n50:22 How AI Could Wipe Out the Banks\n56:14 Where Did All the Money Go?\n1:00:40 Did the Iran War Destroy the American Empire?\n1:05:35 Will the Government Come for Your Gold?\n1:10:35 The Secret Plan to Revalue America's Gold\n1:19:42 What Happens if Saudi Arabia Falls?\n1:32:27 How China Is Breaking the Dollar's Grip on Oil\n1:37:10 Why Boomers Are Holding the Housing Market Hostage"
+        "id": "rJy7wOapsts",
+        "title": "22 Days After the Midterms, Democrats Have Already Betrayed Americans. Can the Uniparty Be Defeated?",
+        "url": "https://www.youtube.com/watch?v=rJy7wOapsts",
+        "date": "2026-11-26T01:22:03+00:00",
+        "description": "Republicans lost three weeks ago because they followed Israel into war. Glenn Greenwald on how they’ve been replaced by Democrats who are eager to do the same.\n\nGlenn Greenwald is a Pulitzer Prize-winning journalist and host of System Update, available on YouTube and your favorite podcast players. His work can be found at greenwald.substack.com.\n\nPaid partnerships with:\n\nReminisce Angus Ranch: Holiday stocking stuffers are here! Shop now at Remangus.com\n\nHallow prayer app: Get 3 months free at https://Hallow.com/Tucker\n\nCardiff: Get same-day business funding up to $500,000 with a quick 3-minute application and no personal credit impact ($12B+ funded) at https://Cardiff.co/TUCKER\n\nLast Country Supply: Put your fears at ease. Stock up on survival essentials at https://lastcountrysupply.com/tucker\n\n#TuckerCarlson #GlennGreenwald #Midterms #Democrats #Republicans #debt #AI #Israel #Iran #exposed #GTA #nuclearwar #news #politics #podcast"
       }
     },
     {
       "name": "George Galloway",
       "slug": "george-galloway",
       "video": {
-        "id": "fqjXQd9JpWY",
-        "title": "The COP31 cop out",
-        "url": "https://www.youtube.com/watch?v=fqjXQd9JpWY",
-        "date": "2026-11-25T14:00:40+00:00",
-        "description": "The climate talks in Turkey broke up in disarray with no agreement on curbing fossil fuels, or commitment by countries to reach thirty-five per cent by renewables by 2035. Gayatri explains\n\nWatch #MOATS Live every Sunday & Wednesday 7PM London Time \n\nFollow @moatstv 606 Insta: @GayatriGalloway #COP31 #fossilfuels #renewables #China #Turkey"
+        "id": "5qYN7kMOyZY",
+        "title": "BREAKING: I'm at Number One",
+        "url": "https://www.youtube.com/watch?v=5qYN7kMOyZY",
+        "date": "2026-11-26T13:00:33+00:00",
+        "description": "George is top of the bookseller charts with his new book, The Strange Death Of Western Liberty. The AI bubble. Trump and the Nvidia millions.  Meanwhile the wars drag on\n\nWatch #MOATS Live every Sunday & Wednesday 7PM London Time\n\nFollow @moatstv 607 #AIbubble #Trump #Ukraine #Iran"
       }
     }
   ],
